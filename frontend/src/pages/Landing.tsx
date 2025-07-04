@@ -176,7 +176,7 @@ const Landing: React.FC<LandingProps> = ({ onSearch, onCompare, onWrestlerClick,
       <footer className="bg-wrestling-black border-t-2 border-wrestling-red p-6">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-wrestling-gray text-sm">
-            IWC PULSE - REAL-TIME WRESTLING COMMUNITY SENTIMENT
+            HEATMETER - REAL-TIME WRESTLING COMMUNITY SENTIMENT
           </p>
           <p className="text-wrestling-gray text-xs mt-2">
             Data sourced from Reddit wrestling communities

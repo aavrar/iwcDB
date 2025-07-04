@@ -16,7 +16,7 @@ const Header: React.FC<HeaderProps> = ({ onCompare, showCompareButton = false, o
           
           <div className="text-center">
             <h1 className="text-5xl font-black tracking-wider uppercase text-white">
-              IWC PULSE
+              HEATMETER
             </h1>
             <p className="text-wrestling-gray mt-2 tracking-wider">
               Live sentiment from the wrestling community
