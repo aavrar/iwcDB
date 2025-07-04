@@ -54,48 +54,57 @@ class SentimentAnalyzer:
             return
         
         try:
-            model_path = os.path.join(settings.MODEL_CACHE_DIR, settings.MODEL_NAME.replace('/', '_'))
-            
-            # Try to load as classification model first
-            try:
-                if os.path.exists(model_path):
-                    logger.info(f"Loading classification model from cache: {model_path}")
-                    self.tokenizer = AutoTokenizer.from_pretrained(model_path)
-                    self.model = AutoModelForSequenceClassification.from_pretrained(model_path)
-                else:
-                    logger.info(f"Downloading classification model: {settings.MODEL_NAME}")
-                    self.tokenizer = AutoTokenizer.from_pretrained(settings.MODEL_NAME)
-                    self.model = AutoModelForSequenceClassification.from_pretrained(settings.MODEL_NAME)
-                    
-                    # Save model to cache
-                    os.makedirs(settings.MODEL_CACHE_DIR, exist_ok=True)
-                    self.tokenizer.save_pretrained(model_path)
-                    self.model.save_pretrained(model_path)
-                    logger.info(f"Classification model cached to: {model_path}")
-                
+            # Check if we should use fine-tuned model
+            if settings.USE_FINE_TUNED_MODEL and os.path.exists(settings.FINE_TUNED_MODEL_PATH):
+                logger.info(f"Loading fine-tuned wrestling model from: {settings.FINE_TUNED_MODEL_PATH}")
+                self.tokenizer = AutoTokenizer.from_pretrained(settings.FINE_TUNED_MODEL_PATH)
+                self.model = AutoModelForSequenceClassification.from_pretrained(settings.FINE_TUNED_MODEL_PATH)
                 self.is_classification_model = True
+                logger.info("Fine-tuned wrestling model loaded successfully")
+            else:
+                # Fallback to cached or base model
+                model_path = os.path.join(settings.MODEL_CACHE_DIR, settings.MODEL_NAME.replace('/', '_'))
                 
-            except Exception as e:
-                logger.warning(f"Could not load as classification model: {e}")
-                logger.info("Falling back to DistilBERT for sentiment analysis...")
-                
-                # Fallback to proven working model
-                fallback_model = "distilbert-base-uncased-finetuned-sst-2-english"
-                fallback_path = os.path.join(settings.MODEL_CACHE_DIR, fallback_model.replace('/', '_'))
-                
-                if os.path.exists(fallback_path):
-                    self.tokenizer = AutoTokenizer.from_pretrained(fallback_path)
-                    self.model = AutoModelForSequenceClassification.from_pretrained(fallback_path)
-                else:
-                    self.tokenizer = AutoTokenizer.from_pretrained(fallback_model)
-                    self.model = AutoModelForSequenceClassification.from_pretrained(fallback_model)
+                # Try to load as classification model first
+                try:
+                    if os.path.exists(model_path):
+                        logger.info(f"Loading classification model from cache: {model_path}")
+                        self.tokenizer = AutoTokenizer.from_pretrained(model_path)
+                        self.model = AutoModelForSequenceClassification.from_pretrained(model_path)
+                    else:
+                        logger.info(f"Downloading classification model: {settings.MODEL_NAME}")
+                        self.tokenizer = AutoTokenizer.from_pretrained(settings.MODEL_NAME)
+                        self.model = AutoModelForSequenceClassification.from_pretrained(settings.MODEL_NAME)
+                        
+                        # Save model to cache
+                        os.makedirs(settings.MODEL_CACHE_DIR, exist_ok=True)
+                        self.tokenizer.save_pretrained(model_path)
+                        self.model.save_pretrained(model_path)
+                        logger.info(f"Classification model cached to: {model_path}")
                     
-                    os.makedirs(settings.MODEL_CACHE_DIR, exist_ok=True)
-                    self.tokenizer.save_pretrained(fallback_path)
-                    self.model.save_pretrained(fallback_path)
-                
-                self.is_classification_model = True
-                logger.info(f"Loaded fallback model: {fallback_model}")
+                    self.is_classification_model = True
+                    
+                except Exception as e:
+                    logger.warning(f"Could not load as classification model: {e}")
+                    logger.info("Falling back to DistilBERT for sentiment analysis...")
+                    
+                    # Fallback to proven working model
+                    fallback_model = "distilbert-base-uncased-finetuned-sst-2-english"
+                    fallback_path = os.path.join(settings.MODEL_CACHE_DIR, fallback_model.replace('/', '_'))
+                    
+                    if os.path.exists(fallback_path):
+                        self.tokenizer = AutoTokenizer.from_pretrained(fallback_path)
+                        self.model = AutoModelForSequenceClassification.from_pretrained(fallback_path)
+                    else:
+                        self.tokenizer = AutoTokenizer.from_pretrained(fallback_model)
+                        self.model = AutoModelForSequenceClassification.from_pretrained(fallback_model)
+                        
+                        os.makedirs(settings.MODEL_CACHE_DIR, exist_ok=True)
+                        self.tokenizer.save_pretrained(fallback_path)
+                        self.model.save_pretrained(fallback_path)
+                    
+                    self.is_classification_model = True
+                    logger.info(f"Loaded fallback model: {fallback_model}")
             
             # Move to device
             self.model.to(self.device)

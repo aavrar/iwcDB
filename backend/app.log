@@ -919,3 +919,1397 @@ Call log:
 2025-07-03 21:36:45,777 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
 2025-07-03 21:36:45,789 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
 2025-07-04 02:03:13,591 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-04 03:13:47,276 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 03:13:47,280 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 03:15:43,279 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 03:15:43,284 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 03:16:01,925 - HeatMeter - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-04 03:16:01,926 - HeatMeter - INFO - Starting Phase 2 data collection for 1000 posts
+2025-07-04 03:16:01,926 - HeatMeter - INFO - Starting enhanced data collection for 1000 posts
+2025-07-04 03:16:01,926 - HeatMeter - INFO - Scraping r/AEWOfficial...
+2025-07-04 03:16:10,075 - HeatMeter - INFO - Scraping r/WWE...
+2025-07-04 03:16:20,142 - HeatMeter - INFO - Scraping r/SquaredCircle...
+2025-07-04 03:16:26,040 - HeatMeter - INFO - Scraping r/Wreddit...
+2025-07-04 03:16:32,101 - HeatMeter - INFO - Scraping r/SCJerk...
+2025-07-04 03:16:37,692 - HeatMeter - INFO - Scraping r/WredditCountryClub...
+2025-07-04 03:16:51,590 - HeatMeter - INFO - Collection complete: 283 posts
+2025-07-04 03:16:51,590 - HeatMeter - INFO -   news: 77 posts
+2025-07-04 03:16:51,590 - HeatMeter - INFO -   rumor: 14 posts
+2025-07-04 03:16:51,590 - HeatMeter - INFO -   opinion: 192 posts
+2025-07-04 03:16:51,590 - HeatMeter - INFO - Generating weak labels for 283 posts
+2025-07-04 03:16:51,710 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:16:58,453 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:16:58,453 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:16:59,350 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:16:59,532 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:16:59,532 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:16:59,546 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:16:59,715 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:16:59,716 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:16:59,730 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:16:59,896 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:16:59,896 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:16:59,910 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:00,074 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:00,074 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:00,089 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:00,253 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:00,253 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:00,267 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:00,428 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:00,428 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:00,442 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:00,607 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:00,607 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:00,633 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:00,800 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:00,800 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:00,803 - HeatMeter - INFO - Processed 100/283 posts
+2025-07-04 03:17:00,814 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:00,976 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:00,976 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:00,989 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:01,165 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:01,165 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:01,180 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:01,369 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:01,370 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:01,384 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:01,560 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:01,561 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:01,574 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:01,775 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:01,775 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:01,789 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:01,957 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:01,957 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:01,971 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:02,139 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:02,139 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:02,153 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:02,319 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:02,319 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:02,333 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:02,497 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:02,497 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:02,510 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:02,672 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:02,672 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:02,686 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:02,846 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:02,846 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:02,860 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:03,020 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:03,021 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:03,034 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:03,191 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:03,191 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:03,203 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:03,394 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:03,394 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:03,408 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:03,592 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:03,593 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:03,607 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:03,781 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:03,786 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:03,801 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:03,988 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:03,988 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:04,001 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:04,491 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:04,491 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:04,504 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:04,676 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:04,676 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:04,689 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:04,852 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:04,852 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:04,865 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:05,030 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:05,030 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:05,043 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:05,210 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:05,210 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:05,223 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:05,383 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:05,383 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:05,406 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:05,566 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:05,566 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:05,579 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:05,750 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:05,751 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:05,764 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:05,933 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:05,933 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:05,946 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:06,110 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:06,110 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:06,123 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:06,283 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:06,283 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:06,297 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:06,455 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:06,456 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:06,469 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:06,627 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:06,627 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:06,641 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:06,799 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:06,799 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:06,812 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:06,972 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:06,972 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:06,985 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:07,145 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:07,146 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:07,161 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:07,357 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:07,357 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:07,370 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:07,534 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:07,534 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:07,547 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:07,710 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:07,710 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:07,723 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:07,885 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:07,885 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:07,898 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:08,057 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:08,057 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:08,070 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:08,237 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:08,237 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:08,251 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:08,419 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:08,419 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:08,434 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:08,689 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:08,690 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:08,706 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:08,909 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:08,910 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:08,925 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:09,102 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:09,103 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:09,117 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:09,300 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:09,304 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:09,319 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:09,484 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:09,484 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:09,497 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:09,657 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:09,657 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:09,672 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:09,840 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:09,840 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:09,855 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:10,016 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:10,016 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:10,030 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:10,187 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:10,187 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:10,200 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:10,359 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:10,360 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:10,373 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:10,549 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:10,550 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:10,564 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:11,003 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:11,003 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:11,017 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:11,184 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:11,184 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:11,197 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:11,356 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:11,356 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:11,369 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:11,529 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:11,529 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:11,542 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:11,703 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:11,703 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:11,715 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:11,873 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:11,873 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:11,897 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:12,057 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:12,057 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:12,070 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:12,225 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:12,225 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:12,239 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:12,399 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:12,399 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:12,412 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:12,575 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:12,575 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:12,588 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:12,751 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:12,751 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:12,765 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:12,930 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:12,930 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:12,944 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:13,103 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:13,104 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:13,117 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:13,280 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:13,280 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:13,293 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:13,457 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:13,457 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:13,471 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:13,629 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:13,629 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:13,642 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:13,801 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:13,801 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:13,814 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:13,971 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:13,971 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:13,995 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:14,162 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:14,162 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:14,176 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:14,338 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:14,338 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:14,351 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:14,518 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:14,518 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:14,531 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:14,733 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:14,733 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:14,747 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:14,916 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:14,917 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:14,930 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:15,090 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:15,090 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:15,103 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:15,265 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:15,265 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:15,278 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:15,446 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:15,446 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:15,460 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:15,812 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:15,814 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:15,847 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:16,188 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:16,188 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:16,202 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:16,375 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:16,375 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:16,399 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:16,562 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:16,562 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:16,576 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:16,743 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:16,743 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:16,756 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:16,922 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:16,922 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:16,935 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:17,102 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:17,102 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:17,137 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:17,298 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:17,298 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:17,312 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:17,476 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:17,477 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:17,490 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:18,008 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:18,008 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:18,020 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:18,191 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:18,191 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:18,204 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:18,369 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:18,369 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:18,382 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:18,549 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:18,549 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:18,563 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:18,737 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:18,737 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:18,763 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:18,932 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:18,932 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:18,934 - HeatMeter - INFO - Processed 200/283 posts
+2025-07-04 03:17:18,946 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:19,109 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:19,109 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:19,123 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:19,281 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:19,281 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:19,294 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:19,456 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:19,456 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:19,469 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:19,634 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:19,634 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:19,647 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:19,810 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:19,810 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:19,823 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:19,984 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:19,984 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:19,998 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:20,162 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:20,162 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:20,175 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:20,344 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:20,344 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:20,358 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:20,535 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:20,535 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:20,552 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:20,723 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:20,723 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:20,735 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:20,900 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:20,900 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:20,913 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:21,076 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:21,076 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:21,090 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:21,249 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:21,249 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:21,262 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:21,423 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:21,423 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:21,436 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:21,593 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:21,593 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:21,605 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:21,766 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:21,767 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:21,780 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:21,943 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:21,943 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:21,956 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:22,126 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:22,126 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:22,150 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:22,313 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:22,313 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:22,336 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:22,501 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:22,502 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:22,514 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:22,680 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:22,680 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:22,693 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:22,865 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:22,866 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:22,880 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:23,046 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:23,046 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:23,060 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:23,430 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:23,430 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:23,442 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:23,729 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:23,729 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:23,744 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:23,915 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:23,916 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:23,930 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:24,384 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:24,384 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:24,397 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:24,578 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:24,579 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:24,592 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:24,767 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:24,767 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:24,780 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:24,954 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:24,954 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:24,967 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:25,131 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:25,131 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:25,144 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:25,316 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:25,316 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:25,329 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:25,500 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:25,500 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:25,513 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:25,683 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:25,683 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:25,696 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:25,861 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:25,861 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:25,875 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:26,041 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:26,041 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:26,055 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:26,221 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:26,221 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:26,235 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:26,397 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:26,398 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:26,410 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:26,575 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:26,575 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:26,587 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:26,747 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:26,747 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:26,760 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:26,922 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:26,923 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:26,936 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:27,101 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:27,101 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:27,114 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:27,274 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:27,275 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:27,287 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:27,450 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:27,450 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:27,463 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:27,625 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:27,625 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:27,637 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:27,799 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:27,799 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:27,813 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:27,977 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:27,977 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:27,990 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:28,155 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:28,155 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:28,169 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:28,334 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:28,334 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:28,347 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:28,507 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:28,507 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:28,519 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:28,675 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:28,675 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:28,687 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:28,848 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:28,848 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:28,860 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:29,026 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:29,026 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:29,039 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:29,195 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:29,195 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:29,209 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:29,371 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:29,371 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:29,384 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:29,545 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:29,546 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:29,559 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:29,722 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:29,722 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:29,736 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:29,902 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:29,902 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:29,915 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:30,076 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:30,077 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:30,090 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:30,436 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:30,436 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:30,450 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:30,624 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:30,624 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:30,637 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:30,800 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:30,800 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:30,813 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:30,979 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:30,979 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:30,991 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:31,155 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:31,155 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:31,168 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:31,333 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:31,334 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:31,346 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:31,513 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:31,513 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:31,526 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:31,695 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:31,695 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:31,709 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:31,873 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:31,873 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:31,886 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:32,052 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:32,052 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:32,065 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:32,231 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:32,231 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:32,244 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:32,410 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:32,410 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:32,423 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:32,591 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:32,591 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:32,604 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:32,770 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:32,770 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:32,783 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:32,945 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:32,945 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:32,958 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:33,121 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:33,121 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:33,134 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:33,294 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:33,294 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:33,306 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:33,473 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:33,473 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:33,487 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:33,652 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:33,652 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:33,665 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:33,829 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:33,829 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:33,842 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:34,041 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:34,042 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:34,055 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:17:34,216 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:34,216 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:17:34,230 - HeatMeter - INFO - Weak labeling complete:
+2025-07-04 03:17:34,230 - HeatMeter - INFO -   Content types: {'rumor': 23, 'news': 78, 'opinion': 182}
+2025-07-04 03:17:34,230 - HeatMeter - INFO -   Sentiments: {'neutral': 182}
+2025-07-04 03:17:34,230 - HeatMeter - INFO -   Needs review: 240/283 (84.8%)
+2025-07-04 03:17:34,234 - HeatMeter - INFO - Selected 240 posts for manual review
+2025-07-04 03:17:34,234 - HeatMeter - INFO -   Review distribution: {'news': 50, 'rumor': 8, 'opinion': 141}
+2025-07-04 03:17:34,240 - HeatMeter - INFO - Phase 2 data collection complete: 283 posts exported to wrestling_training_data_20250704_031734.csv
+2025-07-04 03:20:56,056 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 03:25:28,416 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 03:25:28,420 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 03:25:53,508 - HeatMeter - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-04 03:25:53,509 - HeatMeter - INFO - Starting Phase 2 data collection for 3000 posts
+2025-07-04 03:25:53,509 - HeatMeter - INFO - Starting enhanced data collection for 3000 posts
+2025-07-04 03:25:53,509 - HeatMeter - INFO - Scraping r/SquaredCircle...
+2025-07-04 03:25:59,363 - HeatMeter - INFO - Scraping r/AEWOfficial...
+2025-07-04 03:26:07,044 - HeatMeter - INFO - Scraping r/WWE...
+2025-07-04 03:26:16,316 - HeatMeter - INFO - Scraping r/SCJerk...
+2025-07-04 03:26:18,435 - HeatMeter - INFO - Retrieved 2 recent news items
+2025-07-04 03:26:18,450 - HeatMeter - INFO - Retrieved 2 recent news items
+2025-07-04 03:26:21,313 - HeatMeter - INFO - Scraping r/Wreddit...
+2025-07-04 03:26:27,018 - HeatMeter - INFO - Scraping r/WredditCountryClub...
+2025-07-04 03:26:40,671 - HeatMeter - INFO - Collection complete: 283 posts
+2025-07-04 03:26:40,673 - HeatMeter - INFO -   news: 76 posts
+2025-07-04 03:26:40,673 - HeatMeter - INFO -   rumor: 14 posts
+2025-07-04 03:26:40,673 - HeatMeter - INFO -   opinion: 193 posts
+2025-07-04 03:26:40,675 - HeatMeter - INFO - Generating weak labels for 283 posts
+2025-07-04 03:26:41,691 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:47,662 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:47,662 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:47,677 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:47,847 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:47,847 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:47,860 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:48,049 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:48,049 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:48,074 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:48,248 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:48,248 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:48,272 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:48,449 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:48,450 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:48,464 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:48,636 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:48,636 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:48,651 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:48,820 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:48,821 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:48,825 - HeatMeter - INFO - Processed 100/283 posts
+2025-07-04 03:26:48,836 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:49,002 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:49,002 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:49,016 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:49,183 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:49,183 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:49,196 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:49,363 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:49,363 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:49,375 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:49,539 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:49,540 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:49,553 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:49,726 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:49,726 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:49,752 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:49,971 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:49,971 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:49,985 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:50,168 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:50,168 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:50,182 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:50,371 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:50,371 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:50,388 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:50,562 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:50,562 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:50,576 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:50,743 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:50,744 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:50,760 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:50,933 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:50,934 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:50,948 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:51,116 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:51,116 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:51,130 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:51,294 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:51,294 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:51,308 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:51,468 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:51,468 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:51,482 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:51,642 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:51,642 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:51,655 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:51,815 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:51,815 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:51,827 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:52,003 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:52,003 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:52,028 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:52,508 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:52,508 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:52,522 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:52,690 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:52,690 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:52,702 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:52,872 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:52,872 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:52,885 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:53,058 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:53,058 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:53,070 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:53,234 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:53,235 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:53,248 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:53,412 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:53,413 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:53,425 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:53,629 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:53,630 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:53,643 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:53,807 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:53,807 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:53,820 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:53,990 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:53,990 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:54,004 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:54,164 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:54,164 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:54,177 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:54,340 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:54,341 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:54,354 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:54,525 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:54,526 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:54,539 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:54,734 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:54,734 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:54,748 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:54,966 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:54,966 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:54,984 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:55,242 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:55,242 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:55,255 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:55,483 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:55,483 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:55,497 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:55,670 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:55,670 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:55,685 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:55,850 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:55,850 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:55,866 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:56,036 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:56,036 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:56,051 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:56,218 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:56,219 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:56,233 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:56,399 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:56,399 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:56,413 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:56,590 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:56,590 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:56,607 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:56,772 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:56,772 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:56,786 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:56,952 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:56,953 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:56,977 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:57,164 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:57,164 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:57,178 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:57,395 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:57,395 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:57,409 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:57,634 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:57,634 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:57,648 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:57,825 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:57,825 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:57,839 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:58,007 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:58,008 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:58,021 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:58,185 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:58,185 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:58,198 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:58,360 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:58,360 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:58,373 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:58,534 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:58,534 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:58,547 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:58,715 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:58,715 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:58,727 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:58,901 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:58,901 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:58,915 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:59,084 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:59,084 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:59,097 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:59,258 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:59,259 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:59,272 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:26:59,863 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:59,863 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:26:59,877 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:00,049 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:00,049 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:00,062 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:00,228 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:00,228 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:00,241 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:00,408 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:00,408 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:00,422 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:00,585 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:00,585 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:00,598 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:00,762 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:00,762 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:00,775 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:00,933 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:00,933 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:00,946 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:01,108 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:01,109 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:01,122 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:01,283 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:01,283 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:01,296 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:01,459 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:01,459 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:01,473 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:01,636 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:01,636 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:01,649 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:01,810 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:01,810 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:01,824 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:01,984 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:01,985 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:01,998 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:02,169 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:02,169 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:02,181 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:02,346 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:02,346 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:02,360 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:02,529 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:02,529 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:02,542 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:02,705 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:02,705 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:02,718 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:02,882 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:02,882 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:02,895 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:03,058 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:03,058 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:03,071 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:03,231 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:03,231 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:03,245 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:03,407 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:03,408 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:03,420 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:03,577 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:03,577 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:03,602 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:03,763 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:03,763 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:03,776 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:03,933 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:03,933 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:03,946 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:04,109 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:04,109 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:04,122 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:04,286 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:04,286 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:04,300 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:04,465 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:04,465 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:04,477 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:04,651 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:04,652 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:04,665 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:05,149 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:05,150 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:05,168 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:05,371 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:05,371 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:05,386 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:05,564 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:05,564 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:05,577 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:05,750 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:05,751 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:05,766 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:06,285 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:06,285 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:06,298 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:06,480 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:06,480 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:06,505 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:06,711 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:06,711 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:06,724 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:06,895 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:06,895 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:06,909 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:07,075 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:07,075 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:07,088 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:07,267 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:07,268 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:07,281 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:07,451 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:07,452 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:07,465 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:07,641 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:07,641 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:07,654 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:07,827 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:07,828 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:07,841 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:08,010 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:08,010 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:08,012 - HeatMeter - INFO - Processed 200/283 posts
+2025-07-04 03:27:08,022 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:08,187 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:08,188 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:08,212 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:08,371 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:08,371 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:08,384 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:08,544 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:08,545 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:08,557 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:08,721 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:08,721 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:08,734 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:08,898 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:08,898 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:08,911 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:09,072 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:09,073 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:09,086 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:09,254 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:09,254 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:09,268 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:09,430 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:09,430 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:09,443 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:09,613 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:09,613 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:09,626 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:09,793 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:09,793 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:09,807 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:09,970 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:09,971 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:09,984 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:10,148 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:10,148 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:10,162 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:10,322 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:10,322 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:10,335 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:10,495 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:10,495 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:10,508 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:10,666 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:10,666 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:10,679 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:10,846 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:10,846 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:10,859 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:11,016 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:11,016 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:11,029 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:11,188 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:11,188 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:11,201 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:11,365 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:11,365 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:11,378 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:11,548 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:11,548 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:11,561 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:11,733 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:11,733 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:11,746 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:11,914 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:11,914 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:11,927 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:12,094 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:12,094 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:12,108 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:12,600 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:12,601 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:12,615 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:12,794 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:12,794 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:12,808 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:12,972 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:12,973 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:12,986 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:13,158 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:13,158 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:13,170 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:13,342 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:13,343 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:13,360 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:13,532 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:13,532 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:13,545 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:13,714 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:13,714 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:13,728 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:13,899 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:13,899 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:13,913 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:14,086 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:14,086 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:14,099 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:14,272 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:14,272 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:14,285 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:14,450 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:14,450 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:14,464 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:14,634 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:14,634 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:14,648 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:14,814 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:14,814 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:14,827 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:14,994 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:14,994 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:15,017 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:15,185 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:15,185 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:15,209 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:15,371 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:15,372 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:15,384 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:15,546 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:15,546 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:15,559 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:15,724 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:15,724 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:15,737 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:15,903 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:15,903 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:15,915 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:16,079 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:16,079 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:16,093 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:16,254 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:16,254 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:16,267 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:16,436 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:16,436 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:16,450 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:16,618 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:16,619 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:16,631 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:16,803 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:16,803 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:16,816 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:16,980 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:16,980 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:16,994 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:17,160 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:17,161 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:17,175 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:17,360 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:17,360 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:17,374 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:17,538 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:17,538 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:17,551 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:17,713 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:17,714 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:17,726 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:17,895 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:17,895 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:17,909 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:18,074 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:18,074 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:18,087 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:18,250 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:18,250 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:18,263 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:18,430 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:18,430 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:18,444 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:18,620 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:18,620 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:18,633 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:19,222 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:19,223 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:19,242 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:19,426 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:19,426 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:19,439 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:19,615 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:19,615 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:19,629 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:19,794 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:19,794 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:19,808 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:19,978 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:19,978 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:19,991 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:20,158 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:20,158 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:20,170 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:20,335 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:20,335 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:20,348 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:20,529 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:20,530 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:20,543 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:20,721 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:20,721 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:20,734 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:20,905 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:20,905 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:20,918 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:21,086 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:21,086 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:21,098 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:21,268 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:21,268 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:21,281 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:21,451 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:21,451 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:21,465 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:21,632 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:21,632 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:21,646 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:21,819 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:21,819 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:21,833 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:21,997 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:21,998 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:22,010 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:22,170 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:22,171 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:22,184 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:22,346 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:22,346 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:22,359 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:22,525 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:22,525 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:22,538 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:22,701 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:22,701 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:22,714 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:22,878 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:22,878 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:22,891 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:23,055 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:23,055 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:23,069 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:27:23,234 - HeatMeter - ERROR - Failed to load model: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:23,234 - HeatMeter - ERROR - Sentiment analysis failed: Didn't find engine for operation quantized::linear_prepack NoQEngine
+2025-07-04 03:27:23,248 - HeatMeter - INFO - Weak labeling complete:
+2025-07-04 03:27:23,248 - HeatMeter - INFO -   Content types: {'news': 78, 'rumor': 23, 'opinion': 182}
+2025-07-04 03:27:23,248 - HeatMeter - INFO -   Sentiments: {'neutral': 182}
+2025-07-04 03:27:23,248 - HeatMeter - INFO -   Needs review: 240/283 (84.8%)
+2025-07-04 03:27:23,252 - HeatMeter - INFO - Selected 240 posts for manual review
+2025-07-04 03:27:23,252 - HeatMeter - INFO -   Review distribution: {'news': 50, 'rumor': 8, 'opinion': 141}
+2025-07-04 03:27:23,257 - HeatMeter - INFO - Phase 2 data collection complete: 283 posts exported to wrestling_training_data_20250704_032723.csv
+2025-07-04 03:28:29,041 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 03:28:33,277 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 03:28:33,279 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 03:29:49,092 - HeatMeter - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-04 03:29:49,093 - HeatMeter - INFO - Starting Phase 2 data collection for 3000 posts
+2025-07-04 03:29:49,093 - HeatMeter - INFO - Starting enhanced data collection for 3000 posts
+2025-07-04 03:29:49,093 - HeatMeter - INFO - Scraping r/WWE...
+2025-07-04 03:29:58,510 - HeatMeter - INFO - Scraping r/SCJerk...
+2025-07-04 03:30:03,436 - HeatMeter - INFO - Scraping r/SquaredCircle...
+2025-07-04 03:30:09,212 - HeatMeter - INFO - Scraping r/WredditCountryClub...
+2025-07-04 03:30:23,005 - HeatMeter - INFO - Scraping r/AEWOfficial...
+2025-07-04 03:30:30,747 - HeatMeter - INFO - Scraping r/Wreddit...
+2025-07-04 03:30:36,340 - HeatMeter - INFO - Collection complete: 283 posts
+2025-07-04 03:30:36,340 - HeatMeter - INFO -   news: 76 posts
+2025-07-04 03:30:36,340 - HeatMeter - INFO -   rumor: 14 posts
+2025-07-04 03:30:36,340 - HeatMeter - INFO -   opinion: 193 posts
+2025-07-04 03:30:36,340 - HeatMeter - INFO - Generating weak labels for 283 posts
+2025-07-04 03:30:37,347 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 03:30:41,883 - HeatMeter - INFO - Model loaded successfully on cpu, 124.6M parameters
+2025-07-04 03:30:42,673 - HeatMeter - INFO - Processed 100/283 posts
+2025-07-04 03:30:48,493 - HeatMeter - INFO - Processed 200/283 posts
+2025-07-04 03:30:53,496 - HeatMeter - INFO - Weak labeling complete:
+2025-07-04 03:30:53,496 - HeatMeter - INFO -   Content types: {'news': 78, 'rumor': 23, 'opinion': 182}
+2025-07-04 03:30:53,496 - HeatMeter - INFO -   Sentiments: {'positive': 110, 'neutral': 27, 'negative': 45}
+2025-07-04 03:30:53,496 - HeatMeter - INFO -   Needs review: 157/283 (55.5%)
+2025-07-04 03:30:53,498 - HeatMeter - INFO - Selected 157 posts for manual review
+2025-07-04 03:30:53,498 - HeatMeter - INFO -   Review distribution: {'news': 50, 'rumor': 8, 'opinion': 99}
+2025-07-04 03:30:53,503 - HeatMeter - INFO - Phase 2 data collection complete: 283 posts exported to wrestling_training_data_20250704_033053.csv
+2025-07-04 03:31:57,576 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 03:31:59,749 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 03:32:06,231 - HeatMeter - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-04 03:32:19,153 - HeatMeter - INFO - Retrieved 2 recent news items
+2025-07-04 03:32:19,164 - HeatMeter - INFO - Retrieved 2 recent news items
+2025-07-04 03:32:20,726 - HeatMeter - INFO - Loading CSV for labeling: wrestling_training_data_20250704_033053.csv
+2025-07-04 04:05:19,632 - HeatMeter - INFO - Saving labeling progress for wrestling_training_data_20250704_033053.csv: 134 labels
+2025-07-04 04:05:23,829 - HeatMeter - INFO - Exported 134 labeled posts to wrestling_training_data_20250704_033053_labeled_20250704_040523.csv
+2025-07-04 04:06:53,783 - HeatMeter - INFO - Exported 134 labeled posts to wrestling_training_data_20250704_033053_labeled_20250704_040653.csv
+2025-07-04 04:13:00,460 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 04:13:00,467 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 04:13:05,034 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 04:13:05,035 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 04:13:05,037 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 04:13:06,251 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 04:13:16,847 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 04:13:16,847 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 04:13:21,116 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 04:13:21,117 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 04:13:21,119 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 04:13:21,809 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 04:13:24,544 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 04:13:24,545 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 04:13:25,307 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 04:13:26,028 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 04:13:45,655 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 04:13:45,711 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 04:13:49,811 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 04:13:49,811 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 04:13:49,812 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 04:13:50,505 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 04:13:51,719 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 04:13:51,729 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 04:13:55,220 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 04:13:55,222 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 04:13:55,224 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 04:13:55,833 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 04:13:58,859 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 04:13:58,875 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 04:14:02,668 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 04:14:02,669 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 04:14:02,670 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 04:14:03,358 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 04:14:19,704 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 04:14:19,721 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 04:14:23,579 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 04:14:23,579 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 04:14:23,581 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 04:14:24,267 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 04:20:19,319 - HeatMeter - INFO - Retrieved 2 recent news items
+2025-07-04 04:20:19,339 - HeatMeter - INFO - Retrieved 2 recent news items
+2025-07-04 04:20:30,507 - HeatMeter - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-04 04:20:30,515 - HeatMeter - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-04 04:22:02,278 - HeatMeter - INFO - Starting wrestling sentiment fine-tuning
+2025-07-04 04:22:02,278 - HeatMeter - INFO - Loading training data from /Users/aahadvakani/IWCScraper/wrestling_training_data_20250704_033053_labeled_20250704_040653.csv
+2025-07-04 04:22:02,281 - HeatMeter - INFO - Found 134 labeled examples
+2025-07-04 04:23:07,250 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 04:23:07,281 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 04:23:11,192 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 04:23:11,192 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 04:23:11,194 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 04:23:12,355 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 04:23:37,530 - HeatMeter - INFO - Starting wrestling sentiment fine-tuning
+2025-07-04 04:23:37,530 - HeatMeter - INFO - Loading training data from /Users/aahadvakani/IWCScraper/wrestling_training_data_20250704_033053_labeled_20250704_040653.csv
+2025-07-04 04:23:37,533 - HeatMeter - INFO - Found 134 labeled examples
+2025-07-04 04:25:08,877 - HeatMeter - INFO - Shutting down HeatMeter
+2025-07-04 07:50:45,649 - HeatMeter - INFO - Starting wrestling sentiment fine-tuning
+2025-07-04 07:50:45,649 - HeatMeter - INFO - Loading training data from /Users/aahadvakani/IWCScraper/wrestling_training_data_20250704_033053_labeled_20250704_040653.csv
+2025-07-04 07:50:45,652 - HeatMeter - INFO - Found 134 labeled examples
+2025-07-04 07:50:45,771 - HeatMeter - INFO - Preprocessing kept 132 out of 134 texts
+2025-07-04 07:50:45,789 - HeatMeter - INFO - Content type distribution: {'news': 39, 'rumor': 13, 'opinion': 80}
+2025-07-04 07:50:45,789 - HeatMeter - INFO - Sentiment distribution: {'negative': 12, 'neutral': 91, 'positive': 29}
+2025-07-04 07:50:45,789 - HeatMeter - INFO - Setting up model and tokenizer: microsoft/MiniLM-L6-H384-uncased
+2025-07-04 07:51:21,802 - HeatMeter - INFO - Starting wrestling sentiment fine-tuning
+2025-07-04 07:51:21,802 - HeatMeter - INFO - Loading training data from /Users/aahadvakani/IWCScraper/wrestling_training_data_20250704_033053_labeled_20250704_040653.csv
+2025-07-04 07:51:21,811 - HeatMeter - INFO - Found 134 labeled examples
+2025-07-04 07:51:21,975 - HeatMeter - INFO - Preprocessing kept 132 out of 134 texts
+2025-07-04 07:51:21,977 - HeatMeter - INFO - Content type distribution: {'news': 39, 'rumor': 13, 'opinion': 80}
+2025-07-04 07:51:21,977 - HeatMeter - INFO - Sentiment distribution: {'negative': 12, 'neutral': 91, 'positive': 29}
+2025-07-04 07:51:21,977 - HeatMeter - INFO - Setting up model and tokenizer: cardiffnlp/twitter-roberta-base-sentiment-latest
+2025-07-04 07:51:22,858 - HeatMeter - INFO - Model and tokenizer setup complete
+2025-07-04 07:51:22,859 - HeatMeter - INFO - Preparing datasets for training
+2025-07-04 07:51:24,330 - HeatMeter - INFO - Train dataset size: 105
+2025-07-04 07:51:24,330 - HeatMeter - INFO - Validation dataset size: 27
+2025-07-04 07:51:55,384 - HeatMeter - INFO - Starting wrestling sentiment fine-tuning
+2025-07-04 07:51:55,384 - HeatMeter - INFO - Loading training data from /Users/aahadvakani/IWCScraper/wrestling_training_data_20250704_033053_labeled_20250704_040653.csv
+2025-07-04 07:51:55,387 - HeatMeter - INFO - Found 134 labeled examples
+2025-07-04 07:51:55,457 - HeatMeter - INFO - Preprocessing kept 132 out of 134 texts
+2025-07-04 07:51:55,459 - HeatMeter - INFO - Content type distribution: {'news': 39, 'rumor': 13, 'opinion': 80}
+2025-07-04 07:51:55,459 - HeatMeter - INFO - Sentiment distribution: {'negative': 12, 'neutral': 91, 'positive': 29}
+2025-07-04 07:51:55,459 - HeatMeter - INFO - Setting up model and tokenizer: cardiffnlp/twitter-roberta-base-sentiment-latest
+2025-07-04 07:51:56,401 - HeatMeter - INFO - Model and tokenizer setup complete
+2025-07-04 07:51:56,402 - HeatMeter - INFO - Preparing datasets for training
+2025-07-04 07:51:57,890 - HeatMeter - INFO - Train dataset size: 105
+2025-07-04 07:51:57,890 - HeatMeter - INFO - Validation dataset size: 27
+2025-07-04 07:52:22,573 - HeatMeter - INFO - Starting wrestling sentiment fine-tuning
+2025-07-04 07:52:22,573 - HeatMeter - INFO - Loading training data from /Users/aahadvakani/IWCScraper/wrestling_training_data_20250704_033053_labeled_20250704_040653.csv
+2025-07-04 07:52:22,576 - HeatMeter - INFO - Found 134 labeled examples
+2025-07-04 07:52:22,643 - HeatMeter - INFO - Preprocessing kept 132 out of 134 texts
+2025-07-04 07:52:22,645 - HeatMeter - INFO - Content type distribution: {'news': 39, 'rumor': 13, 'opinion': 80}
+2025-07-04 07:52:22,645 - HeatMeter - INFO - Sentiment distribution: {'negative': 12, 'neutral': 91, 'positive': 29}
+2025-07-04 07:52:22,645 - HeatMeter - INFO - Setting up model and tokenizer: cardiffnlp/twitter-roberta-base-sentiment-latest
+2025-07-04 07:52:23,552 - HeatMeter - INFO - Model and tokenizer setup complete
+2025-07-04 07:52:23,552 - HeatMeter - INFO - Preparing datasets for training
+2025-07-04 07:52:25,027 - HeatMeter - INFO - Train dataset size: 105
+2025-07-04 07:52:25,027 - HeatMeter - INFO - Validation dataset size: 27
+2025-07-04 07:52:57,390 - HeatMeter - INFO - Starting wrestling sentiment fine-tuning
+2025-07-04 07:52:57,391 - HeatMeter - INFO - Loading training data from /Users/aahadvakani/IWCScraper/wrestling_training_data_20250704_033053_labeled_20250704_040653.csv
+2025-07-04 07:52:57,393 - HeatMeter - INFO - Found 134 labeled examples
+2025-07-04 07:52:57,460 - HeatMeter - INFO - Preprocessing kept 132 out of 134 texts
+2025-07-04 07:52:57,462 - HeatMeter - INFO - Content type distribution: {'news': 39, 'rumor': 13, 'opinion': 80}
+2025-07-04 07:52:57,462 - HeatMeter - INFO - Sentiment distribution: {'negative': 12, 'neutral': 91, 'positive': 29}
+2025-07-04 07:52:57,462 - HeatMeter - INFO - Setting up model and tokenizer: cardiffnlp/twitter-roberta-base-sentiment-latest
+2025-07-04 07:52:58,306 - HeatMeter - INFO - Model and tokenizer setup complete
+2025-07-04 07:52:58,306 - HeatMeter - INFO - Preparing datasets for training
+2025-07-04 07:52:59,792 - HeatMeter - INFO - Train dataset size: 105
+2025-07-04 07:52:59,792 - HeatMeter - INFO - Validation dataset size: 27
+2025-07-04 07:53:00,089 - HeatMeter - INFO - Starting training...
+2025-07-04 07:53:33,687 - HeatMeter - INFO - Starting wrestling sentiment fine-tuning
+2025-07-04 07:53:33,687 - HeatMeter - INFO - Loading training data from /Users/aahadvakani/IWCScraper/wrestling_training_data_20250704_033053_labeled_20250704_040653.csv
+2025-07-04 07:53:33,690 - HeatMeter - INFO - Found 134 labeled examples
+2025-07-04 07:53:33,757 - HeatMeter - INFO - Preprocessing kept 132 out of 134 texts
+2025-07-04 07:53:33,759 - HeatMeter - INFO - Content type distribution: {'news': 39, 'rumor': 13, 'opinion': 80}
+2025-07-04 07:53:33,760 - HeatMeter - INFO - Sentiment distribution: {'negative': 12, 'neutral': 91, 'positive': 29}
+2025-07-04 07:53:33,760 - HeatMeter - INFO - Setting up model and tokenizer: cardiffnlp/twitter-roberta-base-sentiment-latest
+2025-07-04 07:53:34,595 - HeatMeter - INFO - Model and tokenizer setup complete
+2025-07-04 07:53:34,595 - HeatMeter - INFO - Preparing datasets for training
+2025-07-04 07:53:36,065 - HeatMeter - INFO - Train dataset size: 105
+2025-07-04 07:53:36,065 - HeatMeter - INFO - Validation dataset size: 27
+2025-07-04 07:53:36,369 - HeatMeter - INFO - Starting training...
+2025-07-04 08:00:10,528 - HeatMeter - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-04 08:00:19,550 - HeatMeter - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-04 08:01:12,798 - HeatMeter - INFO - Starting enhanced data collection for 10000 posts
+2025-07-04 08:01:12,798 - HeatMeter - INFO - Scraping r/WredditCountryClub...
+2025-07-04 08:01:31,185 - HeatMeter - INFO - Starting enhanced data collection for 10000 posts
+2025-07-04 08:01:31,185 - HeatMeter - INFO - Scraping r/AEW...
+2025-07-04 08:01:40,622 - HeatMeter - INFO - Scraping r/RAW...
+2025-07-04 08:01:45,199 - HeatMeter - INFO - Scraping r/prowrestling...
+2025-07-04 08:01:51,096 - HeatMeter - INFO - Scraping r/SquaredCircle...
+2025-07-04 08:01:55,820 - HeatMeter - INFO - Scraping r/AEWOfficial...
+2025-07-04 08:02:03,330 - HeatMeter - INFO - Scraping r/NJPW...
+2025-07-04 08:02:11,861 - HeatMeter - INFO - Scraping r/WWE...
+2025-07-04 08:02:20,899 - HeatMeter - INFO - Scraping r/IndyWrestling...
+2025-07-04 08:02:21,998 - HeatMeter - INFO - Scraping r/WredditCountryClub...
+2025-07-04 08:02:34,670 - HeatMeter - INFO - Scraping r/SmackDown...
+2025-07-04 08:02:38,312 - HeatMeter - INFO - Scraping r/Wreddit...
+2025-07-04 08:02:43,334 - HeatMeter - INFO - Collection complete: 490 posts
+2025-07-04 08:02:43,334 - HeatMeter - INFO -   news: 89 posts
+2025-07-04 08:02:43,334 - HeatMeter - INFO -   rumor: 28 posts
+2025-07-04 08:02:43,334 - HeatMeter - INFO -   opinion: 373 posts
+2025-07-04 08:03:15,094 - HeatMeter - INFO - Starting enhanced data collection for 10000 posts
+2025-07-04 08:03:15,094 - HeatMeter - INFO - Scraping r/RAW...
+2025-07-04 08:03:19,709 - HeatMeter - INFO - Scraping r/IndyWrestling...
+2025-07-04 08:03:20,809 - HeatMeter - INFO - Scraping r/Wreddit...
+2025-07-04 08:03:25,785 - HeatMeter - INFO - Scraping r/prowrestling...
+2025-07-04 08:03:31,852 - HeatMeter - INFO - Scraping r/SmackDown...
+2025-07-04 08:03:35,366 - HeatMeter - INFO - Scraping r/WWE...
+2025-07-04 08:03:44,409 - HeatMeter - INFO - Scraping r/SquaredCircle...
+2025-07-04 08:03:49,052 - HeatMeter - INFO - Scraping r/WredditCountryClub...
+2025-07-04 08:04:02,098 - HeatMeter - INFO - Scraping r/AEWOfficial...
+2025-07-04 08:04:09,303 - HeatMeter - INFO - Scraping r/NJPW...
+2025-07-04 08:04:17,794 - HeatMeter - INFO - Scraping r/AEW...
+2025-07-04 08:04:27,319 - HeatMeter - INFO - Collection complete: 490 posts
+2025-07-04 08:04:27,320 - HeatMeter - INFO -   news: 89 posts
+2025-07-04 08:04:27,320 - HeatMeter - INFO -   rumor: 28 posts
+2025-07-04 08:04:27,320 - HeatMeter - INFO -   opinion: 373 posts
+2025-07-04 08:05:43,763 - HeatMeter - INFO - Starting wrestling sentiment fine-tuning
+2025-07-04 08:05:43,763 - HeatMeter - INFO - Loading training data from /Users/aahadvakani/IWCScraper/wrestling_training_data_20250704_033053_labeled_20250704_040653.csv
+2025-07-04 08:05:43,766 - HeatMeter - INFO - Found 134 labeled examples
+2025-07-04 08:05:43,834 - HeatMeter - INFO - Preprocessing kept 132 out of 134 texts
+2025-07-04 08:05:43,837 - HeatMeter - INFO - Content type distribution: {'news': 39, 'rumor': 13, 'opinion': 80}
+2025-07-04 08:05:43,837 - HeatMeter - INFO - Sentiment distribution: {'negative': 12, 'neutral': 91, 'positive': 29}
+2025-07-04 08:05:43,837 - HeatMeter - INFO - Setting up model and tokenizer: cardiffnlp/twitter-roberta-base-sentiment-latest
+2025-07-04 08:05:44,709 - HeatMeter - INFO - Model and tokenizer setup complete
+2025-07-04 08:05:44,709 - HeatMeter - INFO - Preparing datasets for training
+2025-07-04 08:05:46,077 - HeatMeter - INFO - Train dataset size: 105
+2025-07-04 08:05:46,078 - HeatMeter - INFO - Validation dataset size: 27
+2025-07-04 08:05:46,390 - HeatMeter - INFO - Starting training...
+2025-07-04 08:24:57,954 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 08:25:02,003 - HeatMeter - INFO - Model loaded successfully on cpu, 124.6M parameters
+2025-07-04 08:27:46,156 - HeatMeter - INFO - Loading classification model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-04 08:27:50,078 - HeatMeter - INFO - Model loaded successfully on cpu, 124.6M parameters
+2025-07-04 08:34:33,954 - HeatMeter - INFO - Loading fine-tuned wrestling model from: ./wrestling_fine_tuned_model
+2025-07-04 08:34:34,044 - HeatMeter - ERROR - Failed to load model: Unrecognized model in ./wrestling_fine_tuned_model. Should have a `model_type` key in its config.json, or contain one of the following strings in its name: albert, align, altclip, aria, aria_text, audio-spectrogram-transformer, autoformer, aya_vision, bamba, bark, bart, beit, bert, bert-generation, big_bird, bigbird_pegasus, biogpt, bit, bitnet, blenderbot, blenderbot-small, blip, blip-2, blip_2_qformer, bloom, bridgetower, bros, camembert, canine, chameleon, chinese_clip, chinese_clip_vision_model, clap, clip, clip_text_model, clip_vision_model, clipseg, clvp, code_llama, codegen, cohere, cohere2, colpali, conditional_detr, convbert, convnext, convnextv2, cpmant, csm, ctrl, cvt, d_fine, dab-detr, dac, data2vec-audio, data2vec-text, data2vec-vision, dbrx, deberta, deberta-v2, decision_transformer, deepseek_v3, deformable_detr, deit, depth_anything, depth_pro, deta, detr, diffllama, dinat, dinov2, dinov2_with_registers, distilbert, donut-swin, dpr, dpt, efficientformer, efficientnet, electra, emu3, encodec, encoder-decoder, ernie, ernie_m, esm, falcon, falcon_mamba, fastspeech2_conformer, flaubert, flava, fnet, focalnet, fsmt, funnel, fuyu, gemma, gemma2, gemma3, gemma3_text, git, glm, glm4, glpn, got_ocr2, gpt-sw3, gpt2, gpt_bigcode, gpt_neo, gpt_neox, gpt_neox_japanese, gptj, gptsan-japanese, granite, granite_speech, granitemoe, granitemoehybrid, granitemoeshared, granitevision, graphormer, grounding-dino, groupvit, helium, hgnet_v2, hiera, hubert, ibert, idefics, idefics2, idefics3, idefics3_vision, ijepa, imagegpt, informer, instructblip, instructblipvideo, internvl, internvl_vision, jamba, janus, jetmoe, jukebox, kosmos-2, layoutlm, layoutlmv2, layoutlmv3, led, levit, lilt, llama, llama4, llama4_text, llava, llava_next, llava_next_video, llava_onevision, longformer, longt5, luke, lxmert, m2m_100, mamba, mamba2, marian, markuplm, mask2former, maskformer, maskformer-swin, mbart, mctct, mega, megatron-bert, mgp-str, mimi, mistral, mistral3, mixtral, mlcd, mllama, mobilebert, mobilenet_v1, mobilenet_v2, mobilevit, mobilevitv2, modernbert, moonshine, moshi, mpnet, mpt, mra, mt5, musicgen, musicgen_melody, mvp, nat, nemotron, nezha, nllb-moe, nougat, nystromformer, olmo, olmo2, olmoe, omdet-turbo, oneformer, open-llama, openai-gpt, opt, owlv2, owlvit, paligemma, patchtsmixer, patchtst, pegasus, pegasus_x, perceiver, persimmon, phi, phi3, phi4_multimodal, phimoe, pix2struct, pixtral, plbart, poolformer, pop2piano, prompt_depth_anything, prophetnet, pvt, pvt_v2, qdqbert, qwen2, qwen2_5_omni, qwen2_5_vl, qwen2_5_vl_text, qwen2_audio, qwen2_audio_encoder, qwen2_moe, qwen2_vl, qwen2_vl_text, qwen3, qwen3_moe, rag, realm, recurrent_gemma, reformer, regnet, rembert, resnet, retribert, roberta, roberta-prelayernorm, roc_bert, roformer, rt_detr, rt_detr_resnet, rt_detr_v2, rwkv, sam, sam_hq, sam_hq_vision_model, sam_vision_model, seamless_m4t, seamless_m4t_v2, segformer, seggpt, sew, sew-d, shieldgemma2, siglip, siglip2, siglip_vision_model, smolvlm, smolvlm_vision, speech-encoder-decoder, speech_to_text, speech_to_text_2, speecht5, splinter, squeezebert, stablelm, starcoder2, superglue, superpoint, swiftformer, swin, swin2sr, swinv2, switch_transformers, t5, table-transformer, tapas, textnet, time_series_transformer, timesfm, timesformer, timm_backbone, timm_wrapper, trajectory_transformer, transfo-xl, trocr, tvlt, tvp, udop, umt5, unispeech, unispeech-sat, univnet, upernet, van, video_llava, videomae, vilt, vipllava, vision-encoder-decoder, vision-text-dual-encoder, visual_bert, vit, vit_hybrid, vit_mae, vit_msn, vitdet, vitmatte, vitpose, vitpose_backbone, vits, vivit, wav2vec2, wav2vec2-bert, wav2vec2-conformer, wavlm, whisper, xclip, xglm, xlm, xlm-prophetnet, xlm-roberta, xlm-roberta-xl, xlnet, xmod, yolos, yoso, zamba, zamba2, zoedepth
+2025-07-04 08:35:30,111 - HeatMeter - INFO - Loading fine-tuned wrestling model from: ./wrestling_fine_tuned_model
+2025-07-04 08:35:35,393 - HeatMeter - INFO - Fine-tuned wrestling model loaded successfully
+2025-07-04 08:35:35,395 - HeatMeter - INFO - Model loaded successfully on cpu, 124.6M parameters
+2025-07-04 08:39:31,913 - HeatMeter - ERROR - Content classification failed: This event loop is already running
+2025-07-04 08:39:31,914 - HeatMeter - INFO - Loading fine-tuned multi-task wrestling model from: ./wrestling_fine_tuned_model
+2025-07-04 08:39:33,010 - HeatMeter - INFO - Loaded fine-tuned model weights successfully
+2025-07-04 08:39:33,012 - HeatMeter - INFO - Fine-tuned multi-task model loaded successfully on cpu, 124.1M parameters
+2025-07-04 08:39:33,076 - HeatMeter - ERROR - Content classification failed: This event loop is already running
+2025-07-04 08:39:33,124 - HeatMeter - ERROR - Content classification failed: This event loop is already running
+2025-07-04 08:39:33,167 - HeatMeter - ERROR - Content classification failed: This event loop is already running
+2025-07-04 08:42:03,064 - HeatMeter - INFO - Loading fine-tuned multi-task wrestling model from: ./wrestling_fine_tuned_model
+2025-07-04 08:42:03,723 - HeatMeter - INFO - Loaded fine-tuned model weights successfully
+2025-07-04 08:42:03,725 - HeatMeter - INFO - Fine-tuned multi-task model loaded successfully on cpu, 124.1M parameters
+2025-07-04 08:43:01,569 - HeatMeter - INFO - Generating weak labels for 3 posts
+2025-07-04 08:43:01,570 - HeatMeter - INFO - Loading fine-tuned multi-task wrestling model from: ./wrestling_fine_tuned_model
+2025-07-04 08:43:02,189 - HeatMeter - INFO - Loaded fine-tuned model weights successfully
+2025-07-04 08:43:02,191 - HeatMeter - INFO - Fine-tuned multi-task model loaded successfully on cpu, 124.1M parameters
+2025-07-04 08:43:02,443 - HeatMeter - INFO - Weak labeling complete:
+2025-07-04 08:43:02,443 - HeatMeter - INFO -   Content types: {'opinion': 2, 'news': 1}
+2025-07-04 08:43:02,443 - HeatMeter - INFO -   Sentiments: {'neutral': 1, 'positive': 1}
+2025-07-04 08:43:02,443 - HeatMeter - INFO -   Needs review: 2/3 (66.7%)
+2025-07-04 08:43:33,562 - HeatMeter - INFO - Loading fine-tuned multi-task wrestling model from: ./wrestling_fine_tuned_model
+2025-07-04 08:43:34,387 - HeatMeter - INFO - Loaded fine-tuned model weights successfully
+2025-07-04 08:43:34,389 - HeatMeter - INFO - Fine-tuned multi-task model loaded successfully on cpu, 124.1M parameters
+2025-07-04 08:44:14,763 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 08:44:16,350 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 08:47:04,071 - HeatMeter - INFO - Starting HeatMeter v1.0.0
+2025-07-04 08:47:04,856 - HeatMeter - INFO - Database initialized successfully
+2025-07-04 08:49:00,927 - HeatMeter - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-04 08:49:06,906 - HeatMeter - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-04 08:49:18,912 - HeatMeter - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-04 08:49:35,035 - HeatMeter - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-04 08:49:45,314 - HeatMeter - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-04 08:49:58,430 - HeatMeter - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-04 08:49:58,635 - HeatMeter - ERROR - Sentiment stats endpoint error: type object 'QueryModel' has no attribute 'tweet_count'

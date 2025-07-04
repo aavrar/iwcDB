@@ -109,6 +109,19 @@ export class ApiService {
     const response = await api.post('/api/v1/training/save-model');
     return response.data;
   }
+
+  // Labeling interface methods
+  static async makeRequest(endpoint: string, options?: {method?: string, body?: string}): Promise<any> {
+    const { method = 'GET', body } = options || {};
+    
+    if (method === 'POST') {
+      const response = await api.post(`/api/v1${endpoint}`, body ? JSON.parse(body) : {});
+      return response.data;
+    } else {
+      const response = await api.get(`/api/v1${endpoint}`);
+      return response.data;
+    }
+  }
 }
 
 export default ApiService;

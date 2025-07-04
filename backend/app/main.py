@@ -12,7 +12,7 @@ from app.core.config import settings
 from app.core.database import init_db
 from app.core.logging import logger
 from app.core.security import security_middleware, limiter, get_cors_origins
-from app.api.endpoints import search, sentiment, wrestlers, timeline, posts, training
+from app.api.endpoints import search, sentiment, wrestlers, timeline, posts, training, phase2_training, labeling
 
 
 @asynccontextmanager
@@ -199,6 +199,18 @@ app.include_router(
     training.router,
     prefix=settings.API_V1_STR,
     tags=["training"]
+)
+
+app.include_router(
+    phase2_training.router,
+    prefix=settings.API_V1_STR,
+    tags=["phase2-training"]
+)
+
+app.include_router(
+    labeling.router,
+    prefix=settings.API_V1_STR,
+    tags=["labeling"]
 )
 
 

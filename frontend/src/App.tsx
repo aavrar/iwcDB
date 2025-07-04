@@ -4,8 +4,9 @@ import SearchResults from './pages/SearchResults';
 import Compare from './pages/Compare';
 import WrestlerProfile from './pages/WrestlerProfile';
 import AdminTraining from './pages/AdminTraining';
+import LabelingInterface from './pages/LabelingInterface';
 
-type AppState = 'landing' | 'search' | 'compare' | 'profile' | 'admin';
+type AppState = 'landing' | 'search' | 'compare' | 'profile' | 'admin' | 'labeling';
 
 function App() {
   const [currentState, setCurrentState] = useState<AppState>('landing');
@@ -35,6 +36,10 @@ function App() {
     setCurrentState('admin');
   };
 
+  const handleLabeling = () => {
+    setCurrentState('labeling');
+  };
+
   return (
     <div className="App">
       {currentState === 'landing' && (
@@ -43,6 +48,7 @@ function App() {
           onCompare={handleCompare}
           onWrestlerClick={handleWrestlerProfile}
           onAdminTraining={handleAdminTraining}
+          onLabeling={handleLabeling}
         />
       )}
       {currentState === 'search' && (
@@ -66,6 +72,9 @@ function App() {
         <AdminTraining 
           onBackToHome={handleBackToHome}
         />
+      )}
+      {currentState === 'labeling' && (
+        <LabelingInterface />
       )}
     </div>
   );

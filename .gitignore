@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+/backend/.pytest_cache
 
 # Frontend dependencies and build artifacts
 frontend/node_modules/
@@ -83,3 +84,46 @@ dist/
 
 # Large model files (will be downloaded in production)
 backend/models/cardiffnlp_twitter-roberta-base-sentiment-latest/
+
+# Fine-tuned model files (large - will be uploaded to deployment storage)
+backend/wrestling_fine_tuned_model/
+backend/models/
+**/wrestling_fine_tuned_model/
+wrestling_fine_tuned_model/
+
+# Training data files (CSV files can be large)
+*.csv
+wrestling_training_data_*.csv
+**/wrestling_training_data_*.csv
+
+# Python cache files
+backend/app/**/__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Database files (for local development)
+*.db
+*.sqlite
+*.sqlite3
+conversation_memory.db
+
+# Log files
+*.log
+backend/app.log
+backend/logs/
+logs/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Training debug files
+debug_*.py
+
+# TensorBoard logs
+**/logs/
+events.out.tfevents.*
+
+# Large checkpoint files
+checkpoint-*/
+**/checkpoint-*/

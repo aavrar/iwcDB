@@ -1,5 +1,6 @@
 export interface Post {
   id: string;
+  post_id?: string;
   content: string;
   title?: string;
   score: number;
@@ -11,6 +12,13 @@ export interface Post {
   sentiment_score?: number;
   image_url?: string;
   video_url?: string;
+  content_type?: string;
+  content_confidence?: number;
+  sentiment?: string;
+  sentiment_confidence?: number;
+  needs_review?: boolean;
+  manual_content_type?: string;
+  manual_sentiment?: string;
 }
 
 export interface Wrestler {
