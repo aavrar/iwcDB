@@ -137,8 +137,8 @@ async def lifespan(app: FastAPI):
         init_db()
         logger.info("Database initialized successfully")
         
-        # Pre-populate landing page cache if database is empty
-        await populate_landing_cache()
+        # Skip landing page cache population for deployment
+        # await populate_landing_cache()
         
     except Exception as e:
         logger.error(f"Database initialization failed: {e}")

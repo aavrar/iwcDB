@@ -1,0 +1,37 @@
+# FastAPI and server
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+
+# Caching
+redis==5.0.1
+
+# Environment and configuration
+pydantic==2.5.0
+pydantic-settings==2.0.3
+python-dotenv==1.0.0
+
+# Minimal ML for sentiment
+transformers==4.36.0
+torch==2.1.0 --index-url https://download.pytorch.org/whl/cpu
+tokenizers==0.15.0
+numpy==1.25.2
+
+# Web scraping
+aiohttp==3.9.1
+beautifulsoup4==4.12.2
+requests==2.31.0
+praw==7.7.1
+
+# Rate limiting and security
+slowapi==0.1.9
+
+# Date/time handling
+python-dateutil==2.8.2
+
+# Utilities
+click==8.1.7

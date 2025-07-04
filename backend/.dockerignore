@@ -1,59 +1,115 @@
-# Large model files
+# Large model files and data
 wrestling_fine_tuned_model/
 models/
 *.safetensors
 *.pt
 *.bin
+*.h5
+*.pkl
+*.pickle
 
-# Training data
+# Training and scraped data
 *.csv
 wrestling_training_data_*
+scraped_data/
+data/
+datasets/
 
-# Cache and logs
+# Cache directories and files
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+.cache/
+
+# Logs and temporary files
 *.log
 logs/
-.pytest_cache/
-
-# Development files
-.env
-.env.*
-venv/
-.venv/
-*.db
-*.sqlite
-*.sqlite3
-
-# Git and IDE
-.git/
-.gitignore
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Documentation
-README.md
-SCRAPING_GUIDE.md
-*.md
-
-# Test files
-test_*.py
-tests/
-debug_*.py
-
-# Temporary files
 *.tmp
 *.temp
 temp/
 tmp/
+.tmp/
+
+# Development files
+.env
+.env.*
+.env.local
+.env.development
+.env.test
+venv/
+.venv/
+env/
+.virtualenv/
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Git and IDE
+.git/
+.gitignore
+.gitattributes
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Documentation and config
+README.md
+SCRAPING_GUIDE.md
+*.md
+*.rst
+*.txt
+LICENSE
+CHANGELOG
+.editorconfig
+
+# Test files
+test_*.py
+tests/
+*_test.py
+conftest.py
+debug_*.py
+benchmark_*.py
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+.coverage
+htmlcov/
+.tox/
+.nox/
 
 # Docker files
-Dockerfile
-docker-compose.yml
+Dockerfile*
+docker-compose*.yml
 .dockerignore
 
-# Large datasets
+# Large datasets and conversation data
 conversation_memory.db
+*.jsonl
+*.json.gz
+backup/
+exports/
+
+# Frontend build (if accidentally included)
+frontend/
+static/
+assets/
+public/
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Large pip cache
+.pip/
