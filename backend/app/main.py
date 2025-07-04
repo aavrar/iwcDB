@@ -138,6 +138,16 @@ async def health_check():
     return health_status
 
 
+@app.get("/ping")
+async def ping():
+    """Simple ping endpoint to keep the server awake."""
+    return {
+        "message": "pong",
+        "timestamp": time.time(),
+        "status": "alive"
+    }
+
+
 @app.get("/info")
 async def get_api_info():
     """Get API information and configuration."""

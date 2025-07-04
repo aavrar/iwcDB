@@ -5,7 +5,22 @@
 /.pnp
 .pnp.js
 
-frontend/node_modules
+# Frontend dependencies and build artifacts
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Backend dependencies and artifacts
+backend/venv/
+backend/__pycache__/
+backend/.env
+backend/*.pyc
+backend/app.log
+backend/models/
 
 # testing
 /coverage
@@ -23,7 +38,7 @@ env.*
 frontend/.env.development
 frontend/.env.production
 
-
+.vercel
 # misc
 .DS_Store
 .env.local
@@ -66,9 +81,5 @@ yarn.lock
 # Build artifacts
 dist/
 
-backend/models/cardiffnlp_twitter-roberta-base-sentiment-latest/model.safetensors
-backend/models/cardiffnlp_twitter-roberta-base-sentiment-latest/tokenizer_config.json
-backend/models/cardiffnlp_twitter-roberta-base-sentiment-latest/special_tokens_map.json
-backend/models/cardiffnlp_twitter-roberta-base-sentiment-latest/config.json
-backend/models/cardiffnlp_twitter-roberta-base-sentiment-latest/merges.txt
-backend/models/cardiffnlp_twitter-roberta-base-sentiment-latest/vocab.json
+# Large model files (will be downloaded in production)
+backend/models/cardiffnlp_twitter-roberta-base-sentiment-latest/
