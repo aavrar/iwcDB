@@ -1,0 +1,920 @@
+2025-07-03 01:06:28,369 - IWC Sentiment Tracker - INFO - Downloading model: cardiffnlp/twitter-roberta-base-sentiment-latest
+2025-07-03 01:06:30,059 - IWC Sentiment Tracker - INFO - Model cached to: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-03 01:06:30,061 - IWC Sentiment Tracker - INFO - Model loaded successfully on device: cpu
+2025-07-03 01:06:31,127 - IWC Sentiment Tracker - INFO - Playwright browser initialized successfully
+2025-07-03 01:06:42,198 - IWC Sentiment Tracker - ERROR - Playwright scraping failed: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("article[data-testid=\"tweet\"]") to be visible
+
+2025-07-03 01:06:42,237 - IWC Sentiment Tracker - INFO - Playwright browser closed successfully
+2025-07-03 01:06:42,765 - IWC Sentiment Tracker - INFO - Playwright browser initialized successfully
+2025-07-03 01:06:53,319 - IWC Sentiment Tracker - ERROR - Playwright scraping failed: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("article[data-testid=\"tweet\"]") to be visible
+
+2025-07-03 01:06:53,320 - IWC Sentiment Tracker - ERROR - Twint not available - install with: pip install twint
+2025-07-03 01:06:53,400 - IWC Sentiment Tracker - ERROR - Requests scraping failed: 400, message='Got more than 8190 bytes (8680) when reading Header value is too long.', url='https://twitter.com/search?q=Seth%20Rollins&src=typed_query&f=live'
+2025-07-03 01:06:53,401 - IWC Sentiment Tracker - WARNING - All scraping strategies failed
+2025-07-03 01:06:53,424 - IWC Sentiment Tracker - INFO - Playwright browser closed successfully
+2025-07-03 01:06:53,724 - IWC Sentiment Tracker - INFO - Playwright browser initialized successfully
+2025-07-03 01:07:04,290 - IWC Sentiment Tracker - ERROR - Playwright scraping failed: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("article[data-testid=\"tweet\"]") to be visible
+
+2025-07-03 01:07:04,291 - IWC Sentiment Tracker - ERROR - Twint not available - install with: pip install twint
+2025-07-03 01:07:04,619 - IWC Sentiment Tracker - ERROR - Requests scraping failed: 400, message='Got more than 8190 bytes (10050) when reading Header value is too long.', url='https://twitter.com/search?q=Cody%20Rhodes&src=typed_query&f=live'
+2025-07-03 01:07:04,619 - IWC Sentiment Tracker - WARNING - All scraping strategies failed
+2025-07-03 01:07:04,645 - IWC Sentiment Tracker - INFO - Playwright browser closed successfully
+2025-07-03 01:23:34,784 - IWC Sentiment Tracker - INFO - Playwright browser initialized successfully
+2025-07-03 01:23:42,123 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 posts from 6 subreddits
+2025-07-03 01:23:42,124 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 10 posts
+2025-07-03 01:23:42,147 - IWC Sentiment Tracker - INFO - Playwright browser closed successfully
+2025-07-03 01:23:42,148 - IWC Sentiment Tracker - INFO - Loading model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-03 01:23:42,494 - IWC Sentiment Tracker - INFO - Model loaded successfully on device: cpu
+2025-07-03 01:23:43,785 - IWC Sentiment Tracker - INFO - Playwright browser initialized successfully
+2025-07-03 01:23:50,745 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 posts from 6 subreddits
+2025-07-03 01:23:50,746 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 10 posts
+2025-07-03 01:23:50,771 - IWC Sentiment Tracker - INFO - Playwright browser closed successfully
+2025-07-03 01:23:51,564 - IWC Sentiment Tracker - INFO - Playwright browser initialized successfully
+2025-07-03 01:24:00,148 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 posts from 6 subreddits
+2025-07-03 01:24:00,148 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 10 posts
+2025-07-03 01:24:00,170 - IWC Sentiment Tracker - INFO - Playwright browser closed successfully
+2025-07-03 01:25:56,196 - IWC Sentiment Tracker - INFO - Loading model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-03 01:25:56,603 - IWC Sentiment Tracker - INFO - Model loaded successfully on device: cpu
+2025-07-03 01:28:10,546 - IWC Sentiment Tracker - INFO - Loading model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-03 01:28:16,537 - IWC Sentiment Tracker - INFO - Improved model loaded successfully on device: cpu
+2025-07-03 01:35:27,008 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 posts from 6 subreddits
+2025-07-03 01:35:33,343 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 posts from 6 subreddits
+2025-07-03 01:35:42,067 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 posts from 6 subreddits
+2025-07-03 01:36:26,331 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 unique posts from 6 subreddits
+2025-07-03 01:36:30,787 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 unique posts from 6 subreddits
+2025-07-03 01:36:35,008 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 unique posts from 6 subreddits
+2025-07-03 01:37:17,464 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 unique posts from 6 subreddits
+2025-07-03 01:37:21,645 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 29 unique posts from 6 subreddits
+2025-07-03 01:37:26,053 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 29 unique posts from 6 subreddits
+2025-07-03 01:37:30,393 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 27 unique posts from 6 subreddits
+2025-07-03 01:39:10,754 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 unique posts from 6 subreddits
+2025-07-03 01:39:16,123 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 23 unique posts from 6 subreddits
+2025-07-03 01:39:20,494 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 26 unique posts from 6 subreddits
+2025-07-03 01:39:24,645 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 unique posts from 6 subreddits
+2025-07-03 01:39:28,927 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 unique posts from 6 subreddits
+2025-07-03 01:39:33,454 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 unique posts from 6 subreddits
+2025-07-03 01:39:37,889 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 unique posts from 6 subreddits
+2025-07-03 01:39:42,206 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 29 unique posts from 6 subreddits
+2025-07-03 01:39:46,625 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 unique posts from 6 subreddits
+2025-07-03 01:39:51,008 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 27 unique posts from 6 subreddits
+2025-07-03 01:43:26,914 - IWC Sentiment Tracker - INFO - Base model loaded: cardiffnlp/twitter-roberta-base-sentiment-latest
+2025-07-03 12:08:27,610 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:08:27,625 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:09:24,024 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 unique posts from 6 subreddits
+2025-07-03 12:09:28,818 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 26 unique posts from 6 subreddits
+2025-07-03 12:09:33,050 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 28 unique posts from 6 subreddits
+2025-07-03 12:14:24,871 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:14:24,876 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:14:37,951 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:14:53,674 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:15:33,396 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:15:33,413 - IWC Sentiment Tracker - ERROR - Popular wrestlers endpoint error: Could not determine join condition between parent/child tables on relationship PostModel.query_ref - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2025-07-03 12:15:56,950 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 unique posts from 6 subreddits
+2025-07-03 12:15:56,951 - IWC Sentiment Tracker - INFO - Loading model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-03 12:16:02,592 - IWC Sentiment Tracker - INFO - Model loaded successfully on device: cpu
+2025-07-03 12:16:11,399 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 26 unique posts from 6 subreddits
+2025-07-03 12:16:17,930 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 unique posts from 6 subreddits
+2025-07-03 12:16:19,882 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: python-requests/2.32.4
+2025-07-03 12:16:19,888 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: python-requests/2.32.4
+2025-07-03 12:16:19,889 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: python-requests/2.32.4
+2025-07-03 12:16:19,897 - IWC Sentiment Tracker - ERROR - Popular wrestlers endpoint error: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[PostModel(posts)]'. Original exception was: Could not determine join condition between parent/child tables on relationship PostModel.query_ref - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2025-07-03 12:16:19,899 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: python-requests/2.32.4
+2025-07-03 12:16:37,330 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:16:41,152 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:16:41,153 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:16:43,073 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:16:46,050 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:16:46,052 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:16:49,591 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:16:52,562 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:16:52,564 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:16:58,053 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:17:01,091 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:17:01,093 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:17:04,427 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:18:05,177 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:18:05,189 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:18:24,504 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 unique posts from 6 subreddits
+2025-07-03 12:18:24,504 - IWC Sentiment Tracker - INFO - Loading model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-03 12:18:29,734 - IWC Sentiment Tracker - INFO - Model loaded successfully on device: cpu
+2025-07-03 12:18:37,757 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 26 unique posts from 6 subreddits
+2025-07-03 12:18:44,781 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 unique posts from 6 subreddits
+2025-07-03 12:18:47,125 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: python-requests/2.32.4
+2025-07-03 12:18:47,128 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: python-requests/2.32.4
+2025-07-03 12:18:47,132 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: python-requests/2.32.4
+2025-07-03 12:18:47,148 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: python-requests/2.32.4
+2025-07-03 12:20:08,015 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:22:02,404 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:22:12,787 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:22:21,351 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:22:31,529 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:22:49,344 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:22:53,153 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:22:53,154 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:22:53,357 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:22:56,235 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:22:56,237 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:23:05,452 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:23:05,453 - IWC Sentiment Tracker - INFO - Scraping tweets for query: CM Punk
+2025-07-03 12:23:09,560 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 30 unique posts from 6 subreddits
+2025-07-03 12:23:09,560 - IWC Sentiment Tracker - INFO - Loading model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-03 12:23:14,474 - IWC Sentiment Tracker - INFO - Model loaded successfully on device: cpu
+2025-07-03 12:23:15,951 - IWC Sentiment Tracker - ERROR - Database error storing tweets: 'QueryModel' object has no attribute 'tweet_count'
+2025-07-03 12:23:15,953 - IWC Sentiment Tracker - INFO - Successfully processed 5 tweets for query: CM Punk
+2025-07-03 12:24:02,463 - IWC Sentiment Tracker - INFO - Scraping tweets for query: CM Punk
+2025-07-03 12:24:06,905 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 47 unique posts from 6 subreddits
+2025-07-03 12:24:11,150 - IWC Sentiment Tracker - ERROR - Database error storing tweets: 'QueryModel' object has no attribute 'tweet_count'
+2025-07-03 12:24:11,151 - IWC Sentiment Tracker - INFO - Successfully processed 47 tweets for query: CM Punk
+2025-07-03 12:24:11,154 - IWC Sentiment Tracker - INFO - Scraping tweets for query: CM Punk
+2025-07-03 12:24:15,530 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 47 unique posts from 6 subreddits
+2025-07-03 12:24:20,317 - IWC Sentiment Tracker - INFO - Scraping tweets for query: Cody Rhodes
+2025-07-03 12:24:20,417 - IWC Sentiment Tracker - ERROR - Database error storing tweets: 'QueryModel' object has no attribute 'tweet_count'
+2025-07-03 12:24:20,418 - IWC Sentiment Tracker - INFO - Successfully processed 47 tweets for query: CM Punk
+2025-07-03 12:24:24,795 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 48 unique posts from 6 subreddits
+2025-07-03 12:24:28,420 - IWC Sentiment Tracker - ERROR - Database error storing tweets: 'QueryModel' object has no attribute 'tweet_count'
+2025-07-03 12:24:28,421 - IWC Sentiment Tracker - INFO - Successfully processed 48 tweets for query: Cody Rhodes
+2025-07-03 12:24:28,424 - IWC Sentiment Tracker - INFO - Scraping tweets for query: Cody Rhodes
+2025-07-03 12:24:32,889 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 48 unique posts from 6 subreddits
+2025-07-03 12:24:36,575 - IWC Sentiment Tracker - ERROR - Database error storing tweets: 'QueryModel' object has no attribute 'tweet_count'
+2025-07-03 12:24:36,576 - IWC Sentiment Tracker - INFO - Successfully processed 48 tweets for query: Cody Rhodes
+2025-07-03 12:27:38,028 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:27:41,830 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:27:41,832 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:28:02,327 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:28:05,795 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:28:05,796 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:28:13,899 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:28:23,843 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:28:23,862 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:28:23,876 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:29:58,137 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:30:13,455 - IWC Sentiment Tracker - INFO - Insufficient data for WrestleMania, scraping new posts...
+2025-07-03 12:30:17,980 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 48 unique posts from 6 subreddits
+2025-07-03 12:30:17,980 - IWC Sentiment Tracker - INFO - Loading model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-03 12:30:23,207 - IWC Sentiment Tracker - INFO - Model loaded successfully on device: cpu
+2025-07-03 12:30:28,086 - IWC Sentiment Tracker - ERROR - Search analysis endpoint error: fromisoformat: argument must be str
+2025-07-03 12:33:37,093 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:33:41,044 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:33:41,045 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:33:54,471 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:33:58,023 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:33:58,024 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:34:37,392 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:34:41,083 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:34:41,085 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:34:42,195 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:34:45,161 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:34:45,162 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:34:47,081 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:34:49,992 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:34:49,993 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:35:06,410 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 95 unique posts from 6 subreddits
+2025-07-03 12:35:06,410 - IWC Sentiment Tracker - INFO - Loading model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-03 12:35:11,114 - IWC Sentiment Tracker - INFO - Model loaded successfully on device: cpu
+2025-07-03 12:35:24,664 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 78 unique posts from 6 subreddits
+2025-07-03 12:35:38,206 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 95 unique posts from 6 subreddits
+2025-07-03 12:35:50,589 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 86 unique posts from 6 subreddits
+2025-07-03 12:36:03,032 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 81 unique posts from 6 subreddits
+2025-07-03 12:36:14,614 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 61 unique posts from 6 subreddits
+2025-07-03 12:36:24,303 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 53 unique posts from 6 subreddits
+2025-07-03 12:36:33,824 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 69 unique posts from 6 subreddits
+2025-07-03 12:36:40,366 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: python-requests/2.32.4
+2025-07-03 12:36:40,369 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: python-requests/2.32.4
+2025-07-03 12:36:40,371 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: python-requests/2.32.4
+2025-07-03 12:36:40,388 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: python-requests/2.32.4
+2025-07-03 12:39:18,104 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:39:21,868 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:39:21,870 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:39:23,789 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:39:26,725 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:39:26,727 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:39:31,168 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:39:34,092 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:39:34,093 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:39:44,388 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:39:48,009 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:39:48,010 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:39:51,848 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:39:55,376 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:39:55,377 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:40:03,885 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:40:30,337 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:40:42,162 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:41:12,850 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:41:16,826 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:41:16,828 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:41:18,852 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:41:22,076 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:41:22,080 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:41:28,270 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:44:59,267 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:45:03,017 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:45:03,018 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:46:28,309 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:46:39,829 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:46:39,831 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:46:43,166 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:46:46,516 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:46:46,517 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:46:50,555 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:46:53,611 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:46:53,612 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:47:12,290 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:47:15,886 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:47:15,888 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:47:28,306 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:47:31,839 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:47:31,840 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:47:39,924 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:47:43,384 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:47:43,385 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:47:52,371 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:47:55,963 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:47:55,964 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:48:57,559 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:48:57,571 - IWC Sentiment Tracker - INFO - Fetching new image for CM Punk
+2025-07-03 12:48:57,571 - IWC Sentiment Tracker - INFO - Searching for image: CM Punk
+2025-07-03 12:48:57,981 - IWC Sentiment Tracker - INFO - Found Wikipedia image for CM Punk
+2025-07-03 12:48:57,985 - IWC Sentiment Tracker - INFO - Cached image for CM Punk from wikipedia
+2025-07-03 12:48:57,985 - IWC Sentiment Tracker - INFO - Fetching new image for Cody Rhodes
+2025-07-03 12:48:57,985 - IWC Sentiment Tracker - INFO - Searching for image: Cody Rhodes
+2025-07-03 12:48:58,063 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Cody Rhodes
+2025-07-03 12:48:58,065 - IWC Sentiment Tracker - INFO - Cached image for Cody Rhodes from wikipedia
+2025-07-03 12:48:58,065 - IWC Sentiment Tracker - INFO - Fetching new image for Roman Reigns
+2025-07-03 12:48:58,065 - IWC Sentiment Tracker - INFO - Searching for image: Roman Reigns
+2025-07-03 12:48:58,131 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Roman Reigns
+2025-07-03 12:48:58,132 - IWC Sentiment Tracker - INFO - Cached image for Roman Reigns from wikipedia
+2025-07-03 12:49:26,990 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:49:30,899 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:49:30,900 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:53:08,442 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:53:12,604 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:53:12,605 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:53:23,093 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:53:26,710 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:53:26,711 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:53:35,595 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 12:53:39,480 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 12:53:39,481 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 12:55:09,441 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:55:34,234 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:55:49,381 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:55:49,406 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Seth Rollins (19 posts), no scraping needed
+2025-07-03 12:56:01,799 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 12:56:01,802 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Seth Rollins (19 posts), no scraping needed
+2025-07-03 13:02:29,981 - IWC Sentiment Tracker - INFO - Fetching new image for Jon Moxley
+2025-07-03 13:02:29,982 - IWC Sentiment Tracker - INFO - Searching for image: Jon Moxley
+2025-07-03 13:02:29,999 - IWC Sentiment Tracker - INFO - Fetching new image for Bianca Belair
+2025-07-03 13:02:29,999 - IWC Sentiment Tracker - INFO - Searching for image: Bianca Belair
+2025-07-03 13:02:30,002 - IWC Sentiment Tracker - INFO - Fetching new image for Gunther
+2025-07-03 13:02:30,002 - IWC Sentiment Tracker - INFO - Searching for image: Gunther
+2025-07-03 13:02:30,261 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Gunther
+2025-07-03 13:02:30,265 - IWC Sentiment Tracker - INFO - Cached image for Gunther from wikipedia
+2025-07-03 13:02:30,265 - IWC Sentiment Tracker - INFO - Fetching new image for Jon Moxley
+2025-07-03 13:02:30,265 - IWC Sentiment Tracker - INFO - Searching for image: Jon Moxley
+2025-07-03 13:02:30,266 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Jon Moxley
+2025-07-03 13:02:30,266 - IWC Sentiment Tracker - INFO - Cached image for Jon Moxley from wikipedia
+2025-07-03 13:02:30,267 - IWC Sentiment Tracker - INFO - Fetching new image for Rhea Ripley
+2025-07-03 13:02:30,267 - IWC Sentiment Tracker - INFO - Searching for image: Rhea Ripley
+2025-07-03 13:02:30,268 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Bianca Belair
+2025-07-03 13:02:30,269 - IWC Sentiment Tracker - INFO - Cached image for Bianca Belair from wikipedia
+2025-07-03 13:02:30,270 - IWC Sentiment Tracker - INFO - Fetching new image for Rhea Ripley
+2025-07-03 13:02:30,270 - IWC Sentiment Tracker - INFO - Searching for image: Rhea Ripley
+2025-07-03 13:02:30,318 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Jon Moxley
+2025-07-03 13:02:30,320 - IWC Sentiment Tracker - INFO - Cached image for Jon Moxley from wikipedia
+2025-07-03 13:02:30,320 - IWC Sentiment Tracker - INFO - Fetching new image for Seth Rollins
+2025-07-03 13:02:30,321 - IWC Sentiment Tracker - INFO - Searching for image: Seth Rollins
+2025-07-03 13:02:30,322 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Rhea Ripley
+2025-07-03 13:02:30,323 - IWC Sentiment Tracker - INFO - Cached image for Rhea Ripley from wikipedia
+2025-07-03 13:02:30,324 - IWC Sentiment Tracker - INFO - Fetching new image for Seth Rollins
+2025-07-03 13:02:30,324 - IWC Sentiment Tracker - INFO - Searching for image: Seth Rollins
+2025-07-03 13:02:30,324 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Rhea Ripley
+2025-07-03 13:02:30,325 - IWC Sentiment Tracker - INFO - Cached image for Rhea Ripley from wikipedia
+2025-07-03 13:02:30,326 - IWC Sentiment Tracker - INFO - Fetching new image for Seth Rollins
+2025-07-03 13:02:30,326 - IWC Sentiment Tracker - INFO - Searching for image: Seth Rollins
+2025-07-03 13:02:30,371 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Seth Rollins
+2025-07-03 13:02:30,372 - IWC Sentiment Tracker - INFO - Cached image for Seth Rollins from wikipedia
+2025-07-03 13:02:30,377 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Seth Rollins
+2025-07-03 13:02:30,378 - IWC Sentiment Tracker - INFO - Cached image for Seth Rollins from wikipedia
+2025-07-03 13:02:30,379 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Seth Rollins
+2025-07-03 13:02:30,379 - IWC Sentiment Tracker - INFO - Cached image for Seth Rollins from wikipedia
+2025-07-03 13:03:04,325 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Cody Rhodes (42 posts), no scraping needed
+2025-07-03 13:03:04,330 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Cody Rhodes (42 posts), no scraping needed
+2025-07-03 13:04:22,863 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:04:27,640 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:04:27,641 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:04:38,865 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:04:42,338 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:04:42,339 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:06:04,425 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:06:04,440 - IWC Sentiment Tracker - INFO - Fetching new image for CM Punk
+2025-07-03 13:06:04,440 - IWC Sentiment Tracker - INFO - Searching for image: CM Punk
+2025-07-03 13:06:04,609 - IWC Sentiment Tracker - INFO - Found Wikipedia image for CM Punk
+2025-07-03 13:06:04,611 - IWC Sentiment Tracker - INFO - Cached image for CM Punk from wikipedia
+2025-07-03 13:06:04,612 - IWC Sentiment Tracker - INFO - Fetching new image for Cody Rhodes
+2025-07-03 13:06:04,612 - IWC Sentiment Tracker - INFO - Searching for image: Cody Rhodes
+2025-07-03 13:06:04,662 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Cody Rhodes
+2025-07-03 13:06:04,664 - IWC Sentiment Tracker - INFO - Cached image for Cody Rhodes from wikipedia
+2025-07-03 13:06:22,119 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:06:26,356 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:06:26,358 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:06:26,381 - IWC Sentiment Tracker - INFO - Fetching new image for Roman Reigns
+2025-07-03 13:06:26,381 - IWC Sentiment Tracker - INFO - Searching for image: Roman Reigns
+2025-07-03 13:06:26,404 - IWC Sentiment Tracker - INFO - Fetching new image for Bianca Belair
+2025-07-03 13:06:26,404 - IWC Sentiment Tracker - INFO - Searching for image: Bianca Belair
+2025-07-03 13:06:26,407 - IWC Sentiment Tracker - INFO - Fetching new image for Gunther
+2025-07-03 13:06:26,407 - IWC Sentiment Tracker - INFO - Searching for image: Gunther
+2025-07-03 13:06:26,671 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Roman Reigns
+2025-07-03 13:06:26,674 - IWC Sentiment Tracker - INFO - Cached image for Roman Reigns from wikipedia
+2025-07-03 13:06:26,674 - IWC Sentiment Tracker - INFO - Fetching new image for Jon Moxley
+2025-07-03 13:06:26,674 - IWC Sentiment Tracker - INFO - Searching for image: Jon Moxley
+2025-07-03 13:06:26,675 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Gunther
+2025-07-03 13:06:26,676 - IWC Sentiment Tracker - INFO - Cached image for Gunther from wikipedia
+2025-07-03 13:06:26,677 - IWC Sentiment Tracker - INFO - Fetching new image for Jon Moxley
+2025-07-03 13:06:26,677 - IWC Sentiment Tracker - INFO - Searching for image: Jon Moxley
+2025-07-03 13:06:26,677 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Bianca Belair
+2025-07-03 13:06:26,678 - IWC Sentiment Tracker - INFO - Cached image for Bianca Belair from wikipedia
+2025-07-03 13:06:26,679 - IWC Sentiment Tracker - INFO - Fetching new image for Jon Moxley
+2025-07-03 13:06:26,679 - IWC Sentiment Tracker - INFO - Searching for image: Jon Moxley
+2025-07-03 13:06:26,727 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Jon Moxley
+2025-07-03 13:06:26,729 - IWC Sentiment Tracker - INFO - Cached image for Jon Moxley from wikipedia
+2025-07-03 13:06:26,729 - IWC Sentiment Tracker - INFO - Fetching new image for Rhea Ripley
+2025-07-03 13:06:26,729 - IWC Sentiment Tracker - INFO - Searching for image: Rhea Ripley
+2025-07-03 13:06:26,730 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Jon Moxley
+2025-07-03 13:06:26,731 - IWC Sentiment Tracker - INFO - Cached image for Jon Moxley from wikipedia
+2025-07-03 13:06:26,732 - IWC Sentiment Tracker - INFO - Fetching new image for Seth Rollins
+2025-07-03 13:06:26,732 - IWC Sentiment Tracker - INFO - Searching for image: Seth Rollins
+2025-07-03 13:06:26,732 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Jon Moxley
+2025-07-03 13:06:26,733 - IWC Sentiment Tracker - INFO - Cached image for Jon Moxley from wikipedia
+2025-07-03 13:06:26,733 - IWC Sentiment Tracker - INFO - Fetching new image for Rhea Ripley
+2025-07-03 13:06:26,733 - IWC Sentiment Tracker - INFO - Searching for image: Rhea Ripley
+2025-07-03 13:06:26,780 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Rhea Ripley
+2025-07-03 13:06:26,781 - IWC Sentiment Tracker - INFO - Cached image for Rhea Ripley from wikipedia
+2025-07-03 13:06:26,782 - IWC Sentiment Tracker - INFO - Fetching new image for Seth Rollins
+2025-07-03 13:06:26,782 - IWC Sentiment Tracker - INFO - Searching for image: Seth Rollins
+2025-07-03 13:06:26,782 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Seth Rollins
+2025-07-03 13:06:26,783 - IWC Sentiment Tracker - INFO - Cached image for Seth Rollins from wikipedia
+2025-07-03 13:06:26,784 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Rhea Ripley
+2025-07-03 13:06:26,784 - IWC Sentiment Tracker - INFO - Cached image for Rhea Ripley from wikipedia
+2025-07-03 13:06:26,835 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Seth Rollins
+2025-07-03 13:06:26,837 - IWC Sentiment Tracker - INFO - Cached image for Seth Rollins from wikipedia
+2025-07-03 13:06:35,949 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:06:55,460 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:07:06,568 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:07:10,513 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:07:10,514 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:07:12,535 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:07:16,174 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:07:16,175 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:07:17,432 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (53 posts), no scraping needed
+2025-07-03 13:07:17,437 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (53 posts), no scraping needed
+2025-07-03 13:08:48,643 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:08:53,222 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:08:53,223 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:09:01,383 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:09:01,391 - IWC Sentiment Tracker - INFO - Fetching new image for Cody Rhodes
+2025-07-03 13:09:01,391 - IWC Sentiment Tracker - INFO - Searching for image: Cody Rhodes
+2025-07-03 13:09:01,558 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Cody Rhodes
+2025-07-03 13:09:01,560 - IWC Sentiment Tracker - INFO - Cached image for Cody Rhodes from wikipedia
+2025-07-03 13:09:06,131 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (53 posts), no scraping needed
+2025-07-03 13:09:06,135 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (53 posts), no scraping needed
+2025-07-03 13:10:43,596 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:10:47,487 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:10:47,488 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:10:52,753 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:10:52,764 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (38 posts), no scraping needed
+2025-07-03 13:10:52,765 - IWC Sentiment Tracker - INFO - Fetching new image for Roman Reigns
+2025-07-03 13:10:52,765 - IWC Sentiment Tracker - INFO - Searching for image: Roman Reigns
+2025-07-03 13:10:52,949 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Roman Reigns
+2025-07-03 13:10:52,952 - IWC Sentiment Tracker - INFO - Cached image for Roman Reigns from wikipedia
+2025-07-03 13:11:14,064 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:11:14,071 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (38 posts), no scraping needed
+2025-07-03 13:11:25,457 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:11:25,463 - IWC Sentiment Tracker - INFO - Fetching new image for CM Punk
+2025-07-03 13:11:25,463 - IWC Sentiment Tracker - INFO - Searching for image: CM Punk
+2025-07-03 13:11:25,627 - IWC Sentiment Tracker - INFO - Found Wikipedia image for CM Punk
+2025-07-03 13:11:25,629 - IWC Sentiment Tracker - INFO - Cached image for CM Punk from wikipedia
+2025-07-03 13:11:25,629 - IWC Sentiment Tracker - INFO - Fetching new image for Cody Rhodes
+2025-07-03 13:11:25,629 - IWC Sentiment Tracker - INFO - Searching for image: Cody Rhodes
+2025-07-03 13:11:25,681 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Cody Rhodes
+2025-07-03 13:11:25,683 - IWC Sentiment Tracker - INFO - Cached image for Cody Rhodes from wikipedia
+2025-07-03 13:11:45,740 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:11:50,370 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:11:50,371 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:12:07,508 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Cody Rhodes (42 posts), no scraping needed
+2025-07-03 13:12:07,509 - IWC Sentiment Tracker - INFO - Fetching new image for Cody Rhodes
+2025-07-03 13:12:07,509 - IWC Sentiment Tracker - INFO - Searching for image: Cody Rhodes
+2025-07-03 13:12:08,835 - IWC Sentiment Tracker - INFO - No image found for Cody Rhodes, using placeholder
+2025-07-03 13:12:08,838 - IWC Sentiment Tracker - INFO - Cached image for Cody Rhodes from placeholder
+2025-07-03 13:12:08,846 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Cody Rhodes (42 posts), no scraping needed
+2025-07-03 13:12:16,077 - IWC Sentiment Tracker - INFO - Fetching new image for CM Punk
+2025-07-03 13:12:16,077 - IWC Sentiment Tracker - INFO - Searching for image: CM Punk
+2025-07-03 13:12:16,081 - IWC Sentiment Tracker - INFO - Fetching new image for Bianca Belair
+2025-07-03 13:12:16,081 - IWC Sentiment Tracker - INFO - Searching for image: Bianca Belair
+2025-07-03 13:12:16,083 - IWC Sentiment Tracker - INFO - Fetching new image for CM Punk
+2025-07-03 13:12:16,083 - IWC Sentiment Tracker - INFO - Searching for image: CM Punk
+2025-07-03 13:12:17,246 - IWC Sentiment Tracker - INFO - No image found for CM Punk, using placeholder
+2025-07-03 13:12:17,250 - IWC Sentiment Tracker - INFO - Cached image for CM Punk from placeholder
+2025-07-03 13:12:17,251 - IWC Sentiment Tracker - INFO - Fetching new image for Roman Reigns
+2025-07-03 13:12:17,251 - IWC Sentiment Tracker - INFO - Searching for image: Roman Reigns
+2025-07-03 13:12:17,929 - IWC Sentiment Tracker - INFO - No image found for Bianca Belair, using placeholder
+2025-07-03 13:12:17,932 - IWC Sentiment Tracker - INFO - Cached image for Bianca Belair from placeholder
+2025-07-03 13:12:17,932 - IWC Sentiment Tracker - INFO - Fetching new image for Gunther
+2025-07-03 13:12:17,932 - IWC Sentiment Tracker - INFO - Searching for image: Gunther
+2025-07-03 13:12:18,210 - IWC Sentiment Tracker - INFO - No image found for CM Punk, using placeholder
+2025-07-03 13:12:18,213 - IWC Sentiment Tracker - INFO - Cached image for CM Punk from placeholder
+2025-07-03 13:12:18,214 - IWC Sentiment Tracker - INFO - Fetching new image for Gunther
+2025-07-03 13:12:18,214 - IWC Sentiment Tracker - INFO - Searching for image: Gunther
+2025-07-03 13:12:18,527 - IWC Sentiment Tracker - INFO - No image found for Roman Reigns, using placeholder
+2025-07-03 13:12:18,529 - IWC Sentiment Tracker - INFO - Cached image for Roman Reigns from placeholder
+2025-07-03 13:12:18,530 - IWC Sentiment Tracker - INFO - Fetching new image for Jon Moxley
+2025-07-03 13:12:18,530 - IWC Sentiment Tracker - INFO - Searching for image: Jon Moxley
+2025-07-03 13:12:18,913 - IWC Sentiment Tracker - INFO - No image found for Gunther, using placeholder
+2025-07-03 13:12:18,915 - IWC Sentiment Tracker - INFO - Cached image for Gunther from placeholder
+2025-07-03 13:12:18,915 - IWC Sentiment Tracker - INFO - Fetching new image for Jon Moxley
+2025-07-03 13:12:18,915 - IWC Sentiment Tracker - INFO - Searching for image: Jon Moxley
+2025-07-03 13:12:19,233 - IWC Sentiment Tracker - INFO - No image found for Gunther, using placeholder
+2025-07-03 13:12:19,235 - IWC Sentiment Tracker - INFO - Cached image for Gunther from placeholder
+2025-07-03 13:12:19,235 - IWC Sentiment Tracker - INFO - Fetching new image for Jon Moxley
+2025-07-03 13:12:19,235 - IWC Sentiment Tracker - INFO - Searching for image: Jon Moxley
+2025-07-03 13:12:19,643 - IWC Sentiment Tracker - INFO - No image found for Jon Moxley, using placeholder
+2025-07-03 13:12:19,646 - IWC Sentiment Tracker - INFO - Cached image for Jon Moxley from placeholder
+2025-07-03 13:12:19,646 - IWC Sentiment Tracker - INFO - Fetching new image for Rhea Ripley
+2025-07-03 13:12:19,646 - IWC Sentiment Tracker - INFO - Searching for image: Rhea Ripley
+2025-07-03 13:12:19,887 - IWC Sentiment Tracker - INFO - No image found for Jon Moxley, using placeholder
+2025-07-03 13:12:19,889 - IWC Sentiment Tracker - INFO - Cached image for Jon Moxley from placeholder
+2025-07-03 13:12:19,890 - IWC Sentiment Tracker - INFO - Fetching new image for Rhea Ripley
+2025-07-03 13:12:19,890 - IWC Sentiment Tracker - INFO - Searching for image: Rhea Ripley
+2025-07-03 13:12:20,965 - IWC Sentiment Tracker - INFO - No image found for Jon Moxley, using placeholder
+2025-07-03 13:12:20,967 - IWC Sentiment Tracker - INFO - Cached image for Jon Moxley from placeholder
+2025-07-03 13:12:20,967 - IWC Sentiment Tracker - INFO - Fetching new image for Seth Rollins
+2025-07-03 13:12:20,967 - IWC Sentiment Tracker - INFO - Searching for image: Seth Rollins
+2025-07-03 13:12:21,341 - IWC Sentiment Tracker - INFO - No image found for Rhea Ripley, using placeholder
+2025-07-03 13:12:21,342 - IWC Sentiment Tracker - INFO - Cached image for Rhea Ripley from placeholder
+2025-07-03 13:12:21,343 - IWC Sentiment Tracker - INFO - Fetching new image for Seth Rollins
+2025-07-03 13:12:21,344 - IWC Sentiment Tracker - INFO - Searching for image: Seth Rollins
+2025-07-03 13:12:21,714 - IWC Sentiment Tracker - INFO - No image found for Rhea Ripley, using placeholder
+2025-07-03 13:12:21,716 - IWC Sentiment Tracker - INFO - Cached image for Rhea Ripley from placeholder
+2025-07-03 13:12:21,717 - IWC Sentiment Tracker - INFO - Fetching new image for Seth Rollins
+2025-07-03 13:12:21,717 - IWC Sentiment Tracker - INFO - Searching for image: Seth Rollins
+2025-07-03 13:12:22,108 - IWC Sentiment Tracker - INFO - No image found for Seth Rollins, using placeholder
+2025-07-03 13:12:22,110 - IWC Sentiment Tracker - INFO - Cached image for Seth Rollins from placeholder
+2025-07-03 13:12:22,349 - IWC Sentiment Tracker - INFO - No image found for Seth Rollins, using placeholder
+2025-07-03 13:12:22,350 - IWC Sentiment Tracker - INFO - Cached image for Seth Rollins from placeholder
+2025-07-03 13:12:23,562 - IWC Sentiment Tracker - INFO - No image found for Seth Rollins, using placeholder
+2025-07-03 13:12:23,565 - IWC Sentiment Tracker - INFO - Cached image for Seth Rollins from placeholder
+2025-07-03 13:12:31,693 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (53 posts), no scraping needed
+2025-07-03 13:12:31,697 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (53 posts), no scraping needed
+2025-07-03 13:12:52,591 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (53 posts), no scraping needed
+2025-07-03 13:12:52,595 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (53 posts), no scraping needed
+2025-07-03 13:13:59,684 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:17:54,690 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:19:17,609 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:19:21,524 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:19:21,525 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:21:35,649 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:21:35,663 - IWC Sentiment Tracker - INFO - Fetching new image for CM Punk
+2025-07-03 13:21:35,663 - IWC Sentiment Tracker - INFO - Searching for image: CM Punk
+2025-07-03 13:21:36,022 - IWC Sentiment Tracker - INFO - Found Wikipedia image for CM Punk
+2025-07-03 13:21:36,025 - IWC Sentiment Tracker - INFO - Cached image for CM Punk from wikipedia
+2025-07-03 13:21:36,026 - IWC Sentiment Tracker - INFO - Fetching new image for Cody Rhodes
+2025-07-03 13:21:36,026 - IWC Sentiment Tracker - INFO - Searching for image: Cody Rhodes
+2025-07-03 13:21:36,544 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Cody Rhodes
+2025-07-03 13:21:36,546 - IWC Sentiment Tracker - INFO - Cached image for Cody Rhodes from wikipedia
+2025-07-03 13:21:36,546 - IWC Sentiment Tracker - INFO - Fetching new image for Roman Reigns
+2025-07-03 13:21:36,546 - IWC Sentiment Tracker - INFO - Searching for image: Roman Reigns
+2025-07-03 13:21:36,624 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Roman Reigns
+2025-07-03 13:21:36,627 - IWC Sentiment Tracker - INFO - Cached image for Roman Reigns from wikipedia
+2025-07-03 13:21:48,831 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:21:48,836 - IWC Sentiment Tracker - INFO - Fetching new image for Jon Moxley
+2025-07-03 13:21:48,836 - IWC Sentiment Tracker - INFO - Searching for image: Jon Moxley
+2025-07-03 13:21:48,943 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Jon Moxley
+2025-07-03 13:21:48,945 - IWC Sentiment Tracker - INFO - Cached image for Jon Moxley from wikipedia
+2025-07-03 13:21:48,945 - IWC Sentiment Tracker - INFO - Fetching new image for Rhea Ripley
+2025-07-03 13:21:48,945 - IWC Sentiment Tracker - INFO - Searching for image: Rhea Ripley
+2025-07-03 13:21:49,091 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Rhea Ripley
+2025-07-03 13:21:49,092 - IWC Sentiment Tracker - INFO - Cached image for Rhea Ripley from wikipedia
+2025-07-03 13:22:19,166 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:22:26,082 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (38 posts), no scraping needed
+2025-07-03 13:22:26,087 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (38 posts), no scraping needed
+2025-07-03 13:22:28,563 - IWC Sentiment Tracker - INFO - Fetching new image for Gunther
+2025-07-03 13:22:28,563 - IWC Sentiment Tracker - INFO - Searching for image: Gunther
+2025-07-03 13:22:28,567 - IWC Sentiment Tracker - INFO - Fetching new image for Bianca Belair
+2025-07-03 13:22:28,567 - IWC Sentiment Tracker - INFO - Searching for image: Bianca Belair
+2025-07-03 13:22:28,569 - IWC Sentiment Tracker - INFO - Fetching new image for Gunther
+2025-07-03 13:22:28,570 - IWC Sentiment Tracker - INFO - Searching for image: Gunther
+2025-07-03 13:22:28,766 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Gunther
+2025-07-03 13:22:28,768 - IWC Sentiment Tracker - INFO - Cached image for Gunther from wikipedia
+2025-07-03 13:22:28,769 - IWC Sentiment Tracker - INFO - Fetching new image for Seth Rollins
+2025-07-03 13:22:28,769 - IWC Sentiment Tracker - INFO - Searching for image: Seth Rollins
+2025-07-03 13:22:28,769 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Gunther
+2025-07-03 13:22:28,771 - IWC Sentiment Tracker - INFO - Cached image for Gunther from wikipedia
+2025-07-03 13:22:28,771 - IWC Sentiment Tracker - INFO - Fetching new image for Seth Rollins
+2025-07-03 13:22:28,771 - IWC Sentiment Tracker - INFO - Searching for image: Seth Rollins
+2025-07-03 13:22:28,864 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Seth Rollins
+2025-07-03 13:22:28,866 - IWC Sentiment Tracker - INFO - Cached image for Seth Rollins from wikipedia
+2025-07-03 13:22:28,867 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Seth Rollins
+2025-07-03 13:22:28,868 - IWC Sentiment Tracker - INFO - Cached image for Seth Rollins from wikipedia
+2025-07-03 13:22:28,868 - IWC Sentiment Tracker - INFO - Fetching new image for Bianca Belair
+2025-07-03 13:22:28,868 - IWC Sentiment Tracker - INFO - Searching for image: Bianca Belair
+2025-07-03 13:22:29,438 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Bianca Belair
+2025-07-03 13:22:29,440 - IWC Sentiment Tracker - INFO - Cached image for Bianca Belair from wikipedia
+2025-07-03 13:22:29,440 - IWC Sentiment Tracker - INFO - Found Wikipedia image for Bianca Belair
+2025-07-03 13:22:29,442 - IWC Sentiment Tracker - INFO - Cached image for Bianca Belair from wikipedia
+2025-07-03 13:22:32,648 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (38 posts), no scraping needed
+2025-07-03 13:22:32,653 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (38 posts), no scraping needed
+2025-07-03 13:22:51,118 - IWC Sentiment Tracker - INFO - Low post count (0) for hulk hogan, scraping needed
+2025-07-03 13:22:51,119 - IWC Sentiment Tracker - INFO - Auto-populating data for hulk hogan...
+2025-07-03 13:22:57,058 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 121 unique posts from 6 subreddits
+2025-07-03 13:22:57,059 - IWC Sentiment Tracker - INFO - Loading model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-03 13:23:02,957 - IWC Sentiment Tracker - INFO - Model loaded successfully on device: cpu
+2025-07-03 13:23:08,078 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:23:08,314 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Seth Rollins (19 posts), no scraping needed
+2025-07-03 13:23:17,339 - IWC Sentiment Tracker - ERROR - Search analysis endpoint error: fromisoformat: argument must be str
+2025-07-03 13:24:00,179 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (53 posts), no scraping needed
+2025-07-03 13:30:52,546 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: python-requests/2.32.4
+2025-07-03 13:30:52,549 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: python-requests/2.32.4
+2025-07-03 13:30:52,552 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: python-requests/2.32.4
+2025-07-03 13:30:52,562 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: python-requests/2.32.4
+2025-07-03 13:30:52,566 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (53 posts), no scraping needed
+2025-07-03 13:31:03,231 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:31:03,233 - IWC Sentiment Tracker - INFO - Low post count (0) for hulk hogan, scraping needed
+2025-07-03 13:31:03,233 - IWC Sentiment Tracker - INFO - Auto-populating data for hulk hogan...
+2025-07-03 13:31:08,790 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 121 unique posts from 6 subreddits
+2025-07-03 13:31:21,125 - IWC Sentiment Tracker - ERROR - Search analysis endpoint error: fromisoformat: argument must be str
+2025-07-03 13:31:28,798 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:31:37,957 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:33:39,747 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:33:43,661 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:33:43,663 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:34:10,001 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:34:10,007 - IWC Sentiment Tracker - INFO - Low post count (0) for hulk hogan, scraping needed
+2025-07-03 13:34:10,008 - IWC Sentiment Tracker - INFO - Auto-populating data for hulk hogan...
+2025-07-03 13:34:15,631 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 121 unique posts from 6 subreddits
+2025-07-03 13:34:15,631 - IWC Sentiment Tracker - INFO - Loading model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-03 13:34:21,288 - IWC Sentiment Tracker - INFO - Model loaded successfully on device: cpu
+2025-07-03 13:34:33,777 - IWC Sentiment Tracker - INFO - Fetching new image for hulk hogan
+2025-07-03 13:34:33,777 - IWC Sentiment Tracker - INFO - Searching for image: hulk hogan
+2025-07-03 13:34:33,999 - IWC Sentiment Tracker - INFO - Found Wikipedia image for hulk hogan
+2025-07-03 13:34:34,003 - IWC Sentiment Tracker - INFO - Cached image for hulk hogan from wikipedia
+2025-07-03 13:35:02,867 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:35:07,127 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:35:07,128 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:35:21,771 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:35:25,794 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:35:25,795 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:36:12,140 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:36:12,154 - IWC Sentiment Tracker - ERROR - Loved wrestlers endpoint error: Function.__init__() got an unexpected keyword argument 'else_'
+2025-07-03 13:36:31,314 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:36:35,033 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:36:35,035 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:36:45,735 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:36:49,288 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:36:49,289 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:36:56,323 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:36:56,325 - IWC Sentiment Tracker - ERROR - Loved wrestlers endpoint error: The "whens" argument to case(), when referring to a sequence of items, is now passed as a series of positional elements, rather than as a list. 
+2025-07-03 13:37:05,032 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:37:08,550 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:37:08,551 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:37:12,418 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:37:20,297 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:37:26,847 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:37:35,493 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:37:39,260 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:37:39,261 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:37:41,498 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 13:37:44,752 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 13:37:44,753 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 13:37:50,212 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:37:50,243 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:39:26,640 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:40:55,665 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (38 posts), no scraping needed
+2025-07-03 13:40:55,671 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (38 posts), no scraping needed
+2025-07-03 13:40:59,897 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 13:40:59,922 - IWC Sentiment Tracker - INFO - Sufficient fresh data for cm punk (53 posts), no scraping needed
+2025-07-03 13:40:59,922 - IWC Sentiment Tracker - INFO - Fetching new image for cm punk
+2025-07-03 13:40:59,922 - IWC Sentiment Tracker - INFO - Searching for image: cm punk
+2025-07-03 13:41:00,262 - IWC Sentiment Tracker - INFO - Found Wikipedia image for cm punk
+2025-07-03 13:41:00,268 - IWC Sentiment Tracker - INFO - Cached image for cm punk from wikipedia
+2025-07-03 13:41:05,945 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (38 posts), no scraping needed
+2025-07-03 13:41:05,952 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (38 posts), no scraping needed
+2025-07-03 19:02:58,732 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:04:28,780 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:07:09,801 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:07:09,806 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:09:33,171 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:10:08,493 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:10:17,023 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:10:25,244 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:10:25,252 - IWC Sentiment Tracker - ERROR - News endpoint error: type object 'PostModel' has no attribute 'score'
+2025-07-03 19:10:49,522 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:10:54,247 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:10:54,249 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:11:07,775 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:11:11,520 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:11:11,521 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:11:16,160 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:11:19,636 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:11:19,637 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:11:48,816 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:11:48,830 - IWC Sentiment Tracker - INFO - Retrieved 0 recent news items
+2025-07-03 19:11:59,310 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:12:03,548 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:12:03,550 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:12:04,459 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:12:07,569 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:12:07,571 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:12:24,793 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:12:24,810 - IWC Sentiment Tracker - INFO - Retrieved 3 recent news items
+2025-07-03 19:12:32,965 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:12:32,977 - IWC Sentiment Tracker - INFO - Retrieved 3 recent news items
+2025-07-03 19:14:30,855 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:14:35,067 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:14:35,068 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:14:38,913 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:17:27,724 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:17:35,864 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:17:35,870 - IWC Sentiment Tracker - INFO - Retrieved 3 recent news items
+2025-07-03 19:17:44,790 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:17:44,793 - IWC Sentiment Tracker - INFO - Retrieved 3 recent news items
+2025-07-03 19:22:08,242 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:22:12,517 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:22:12,518 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:22:30,703 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:24:07,520 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:24:59,219 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:24:59,232 - IWC Sentiment Tracker - INFO - Low post count (0) for test, scraping needed
+2025-07-03 19:24:59,232 - IWC Sentiment Tracker - INFO - Auto-populating data for test...
+2025-07-03 19:25:08,796 - IWC Sentiment Tracker - WARNING - Reddit r/IMPACTWRESTLING returned status 403
+2025-07-03 19:25:09,298 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 131 unique posts from 12 subreddits
+2025-07-03 19:25:09,298 - IWC Sentiment Tracker - INFO - Loading model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-03 19:25:15,571 - IWC Sentiment Tracker - INFO - Model loaded successfully on device: cpu
+2025-07-03 19:25:31,268 - IWC Sentiment Tracker - INFO - Fetching new image for test
+2025-07-03 19:25:31,268 - IWC Sentiment Tracker - INFO - Searching for image: test
+2025-07-03 19:25:31,746 - IWC Sentiment Tracker - INFO - Found Wikipedia image for test
+2025-07-03 19:25:31,751 - IWC Sentiment Tracker - INFO - Cached image for test from wikipedia
+2025-07-03 19:25:58,418 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:25:58,430 - IWC Sentiment Tracker - INFO - Retrieved 3 recent news items
+2025-07-03 19:26:34,039 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:26:38,483 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:26:38,486 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:26:52,525 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:27:35,774 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:28:13,259 - IWC Sentiment Tracker - INFO - Retrieved 8 recent news items
+2025-07-03 19:28:13,291 - IWC Sentiment Tracker - INFO - Retrieved 8 recent news items
+2025-07-03 19:28:59,441 - IWC Sentiment Tracker - INFO - Retrieved 8 recent news items
+2025-07-03 19:29:00,168 - IWC Sentiment Tracker - INFO - Retrieved 8 recent news items
+2025-07-03 19:29:00,660 - IWC Sentiment Tracker - INFO - Retrieved 8 recent news items
+2025-07-03 19:29:32,082 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:31:32,815 - IWC Sentiment Tracker - INFO - Sufficient fresh data for test (17 posts), no scraping needed
+2025-07-03 19:31:32,824 - IWC Sentiment Tracker - INFO - Sufficient fresh data for test (17 posts), no scraping needed
+2025-07-03 19:31:39,097 - IWC Sentiment Tracker - INFO - Retrieved 8 recent news items
+2025-07-03 19:31:39,112 - IWC Sentiment Tracker - INFO - Retrieved 8 recent news items
+2025-07-03 19:31:40,962 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-03 19:31:40,970 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-03 19:32:08,404 - IWC Sentiment Tracker - INFO - Retrieved 8 recent news items
+2025-07-03 19:32:08,425 - IWC Sentiment Tracker - INFO - Retrieved 8 recent news items
+2025-07-03 19:32:44,546 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:33:39,426 - IWC Sentiment Tracker - INFO - Retrieved 8 recent news items
+2025-07-03 19:33:39,435 - IWC Sentiment Tracker - INFO - Retrieved 8 recent news items
+2025-07-03 19:38:46,845 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-03 19:38:46,856 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-03 19:39:16,890 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (63 posts), no scraping needed
+2025-07-03 19:39:20,110 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (67 posts), no scraping needed
+2025-07-03 19:39:21,715 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (74 posts), no scraping needed
+2025-07-03 19:39:28,317 - IWC Sentiment Tracker - INFO - Retrieved 8 recent news items
+2025-07-03 19:39:28,334 - IWC Sentiment Tracker - INFO - Retrieved 8 recent news items
+2025-07-03 19:39:30,715 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Cody Rhodes (42 posts), no scraping needed
+2025-07-03 19:39:30,721 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Cody Rhodes (42 posts), no scraping needed
+2025-07-03 19:40:28,898 - IWC Sentiment Tracker - INFO - Low post count (0) for john cena, scraping needed
+2025-07-03 19:40:28,898 - IWC Sentiment Tracker - INFO - Auto-populating data for john cena...
+2025-07-03 19:40:37,738 - IWC Sentiment Tracker - WARNING - Reddit r/IMPACTWRESTLING returned status 403
+2025-07-03 19:40:38,239 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 110 unique posts from 12 subreddits
+2025-07-03 19:40:38,239 - IWC Sentiment Tracker - INFO - Loading model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-03 19:40:44,109 - IWC Sentiment Tracker - INFO - Model loaded successfully on device: cpu
+2025-07-03 19:40:57,880 - IWC Sentiment Tracker - INFO - Fetching new image for john cena
+2025-07-03 19:40:57,880 - IWC Sentiment Tracker - INFO - Searching for image: john cena
+2025-07-03 19:40:58,382 - IWC Sentiment Tracker - INFO - Found Wikipedia image for john cena
+2025-07-03 19:40:58,385 - IWC Sentiment Tracker - INFO - Cached image for john cena from wikipedia
+2025-07-03 19:41:14,440 - IWC Sentiment Tracker - INFO - Retrieved 7 recent news items
+2025-07-03 19:41:14,453 - IWC Sentiment Tracker - INFO - Retrieved 7 recent news items
+2025-07-03 19:41:56,057 - IWC Sentiment Tracker - INFO - Retrieved 7 recent news items
+2025-07-03 19:41:56,067 - IWC Sentiment Tracker - INFO - Retrieved 7 recent news items
+2025-07-03 19:42:10,759 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Jon Moxley (34 posts), no scraping needed
+2025-07-03 19:42:10,768 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Jon Moxley (34 posts), no scraping needed
+2025-07-03 19:45:15,168 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 19:45:24,378 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:45:29,059 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:45:29,061 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:45:32,089 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:45:35,506 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:45:35,507 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:48:39,854 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:48:43,808 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:48:43,809 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:53:01,966 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:53:01,967 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:54:44,246 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:54:50,056 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:54:50,060 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:54:55,422 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:55:00,084 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:55:00,087 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:55:03,649 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:55:12,257 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:55:12,258 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:55:43,280 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:55:47,356 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:55:47,359 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:55:54,332 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:55:58,570 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:55:58,571 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 19:56:02,312 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 19:56:06,388 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 19:56:06,389 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 20:01:07,712 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:01:07,730 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:01:10,963 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Jon Moxley (34 posts), no scraping needed
+2025-07-03 20:01:10,970 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Jon Moxley (34 posts), no scraping needed
+2025-07-03 20:01:40,491 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:01:40,501 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:02:36,577 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Cody Rhodes (42 posts), no scraping needed
+2025-07-03 20:02:36,586 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Cody Rhodes (42 posts), no scraping needed
+2025-07-03 20:03:12,811 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:03:12,837 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:08:44,168 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:11:27,027 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:11:27,045 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:11:30,411 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:11:30,425 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:11:34,145 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (37 posts), no scraping needed
+2025-07-03 20:11:34,152 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (37 posts), no scraping needed
+2025-07-03 20:11:45,391 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (49 posts), no scraping needed
+2025-07-03 20:11:47,789 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (48 posts), no scraping needed
+2025-07-03 20:11:49,197 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (55 posts), no scraping needed
+2025-07-03 20:11:50,783 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (49 posts), no scraping needed
+2025-07-03 20:11:51,628 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (48 posts), no scraping needed
+2025-07-03 20:11:52,393 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (37 posts), no scraping needed
+2025-07-03 20:11:53,399 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (49 posts), no scraping needed
+2025-07-03 20:11:54,132 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (55 posts), no scraping needed
+2025-07-03 20:11:55,687 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (37 posts), no scraping needed
+2025-07-03 20:11:56,673 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (49 posts), no scraping needed
+2025-07-03 20:11:57,405 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (55 posts), no scraping needed
+2025-07-03 20:11:58,154 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (37 posts), no scraping needed
+2025-07-03 20:13:04,964 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:13:04,993 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:13:07,126 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Jon Moxley (34 posts), no scraping needed
+2025-07-03 20:13:07,132 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Jon Moxley (34 posts), no scraping needed
+2025-07-03 20:13:09,754 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Jon Moxley (48 posts), no scraping needed
+2025-07-03 20:13:10,302 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Jon Moxley (65 posts), no scraping needed
+2025-07-03 20:13:17,874 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:13:17,884 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:18:42,823 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:18:42,845 - IWC Sentiment Tracker - INFO - Sufficient fresh data for test (17 posts), no scraping needed
+2025-07-03 20:19:22,606 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 20:19:28,148 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 20:19:28,152 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 20:19:30,989 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 20:19:34,937 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 20:19:34,939 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 20:21:04,201 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:21:13,419 - IWC Sentiment Tracker - WARNING - Reddit r/IMPACTWRESTLING returned status 403
+2025-07-03 20:21:13,923 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 137 unique posts from 12 subreddits
+2025-07-03 20:21:13,923 - IWC Sentiment Tracker - INFO - Loading model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-03 20:21:20,060 - IWC Sentiment Tracker - INFO - Model loaded successfully on device: cpu
+2025-07-03 20:22:02,982 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:22:02,996 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:22:07,141 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-03 20:22:07,148 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-03 20:22:10,416 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:22:29,336 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:22:37,998 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:22:41,469 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:22:41,482 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:22:42,845 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (37 posts), no scraping needed
+2025-07-03 20:22:42,855 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (37 posts), no scraping needed
+2025-07-03 20:22:45,400 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:22:45,412 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:22:51,110 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:22:54,944 - IWC Sentiment Tracker - INFO - Sufficient fresh data for hulk hogan (30 posts), no scraping needed
+2025-07-03 20:22:54,950 - IWC Sentiment Tracker - INFO - Sufficient fresh data for hulk hogan (30 posts), no scraping needed
+2025-07-03 20:22:57,598 - IWC Sentiment Tracker - INFO - Sufficient fresh data for hulk hogan (51 posts), no scraping needed
+2025-07-03 20:22:59,727 - IWC Sentiment Tracker - INFO - Sufficient fresh data for hulk hogan (63 posts), no scraping needed
+2025-07-03 20:23:03,423 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:23:15,713 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:23:25,031 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:23:39,682 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:23:39,696 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:23:55,250 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:23:55,262 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:24:32,057 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:24:58,418 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:25:20,442 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:25:43,095 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:28:35,376 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:29:53,543 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:30:02,857 - IWC Sentiment Tracker - WARNING - Reddit r/IMPACTWRESTLING returned status 403
+2025-07-03 20:30:03,360 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 137 unique posts from 12 subreddits
+2025-07-03 20:30:08,865 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:30:08,868 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:30:09,557 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-03 20:30:09,564 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-03 20:30:17,146 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:30:17,158 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:30:19,011 - IWC Sentiment Tracker - INFO - Sufficient fresh data for john cena (34 posts), no scraping needed
+2025-07-03 20:30:19,018 - IWC Sentiment Tracker - INFO - Sufficient fresh data for john cena (34 posts), no scraping needed
+2025-07-03 20:30:20,600 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:30:20,612 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:30:26,342 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Rhea Ripley (30 posts), no scraping needed
+2025-07-03 20:30:26,348 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Rhea Ripley (30 posts), no scraping needed
+2025-07-03 20:30:28,429 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:30:28,443 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:30:42,820 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-03 20:30:42,829 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-03 20:30:49,359 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:30:49,362 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:30:50,651 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Jon Moxley (34 posts), no scraping needed
+2025-07-03 20:30:50,659 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Jon Moxley (34 posts), no scraping needed
+2025-07-03 20:31:12,820 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:31:12,829 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:31:13,960 - IWC Sentiment Tracker - INFO - Sufficient fresh data for john cena (34 posts), no scraping needed
+2025-07-03 20:31:13,967 - IWC Sentiment Tracker - INFO - Sufficient fresh data for john cena (34 posts), no scraping needed
+2025-07-03 20:31:23,552 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:31:23,563 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:31:24,913 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-03 20:31:24,921 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-03 20:32:13,919 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:32:13,931 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:32:24,275 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:32:24,278 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:41:08,344 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:41:08,348 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:41:09,705 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-03 20:41:09,713 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-03 20:41:17,409 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:41:17,420 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:41:31,685 - IWC Sentiment Tracker - WARNING - Reddit r/IMPACTWRESTLING returned status 403
+2025-07-03 20:41:32,187 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 137 unique posts from 12 subreddits
+2025-07-03 20:41:54,111 - IWC Sentiment Tracker - INFO - Manual classification received: {'post_id': 'reddit_1lr2idp', 'sentiment': 'positive', 'type': 'news', 'content': 'Date: November 18,2004\n\nPromotion:\tWorld Wrestling Entertainment (WWE)\n\nEvent: SmackDown \n\nLocation: Dayton, Ohio | Nutter Center\n\n\n↳ JBL\'s Survivor Series victory speech is interrupted by Booker T, Eddie Guerrero &amp; The Undertaker who all come out to demand a match for the WWE Championship with JBL proudly held. \n\nJBL: "I gotta tell you in Spanish, I gotta tell you in Hip Hop, I gotta tell you in Monster? Listen to me! LISTEN TO ME! I’m not fighting either of y’all!”\n\n☞ Watch Entire Promo — https://youtu.be/F400GrcuvkE?feature=shared', 'title': 'Underrated Wrestling Promo: JBL', 'subreddit': 'SquaredCircle', 'author': 'Mr_Unfuqwitable'}
+2025-07-03 20:42:03,665 - IWC Sentiment Tracker - WARNING - Reddit r/IMPACTWRESTLING returned status 403
+2025-07-03 20:42:04,167 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 137 unique posts from 12 subreddits
+2025-07-03 20:42:12,414 - IWC Sentiment Tracker - INFO - Manual classification received: {'post_id': 'reddit_1lr4e8h', 'sentiment': 'positive', 'type': 'news', 'content': '[ROH Spoilers] Tag Team Championship Match confirmed for Supercard of Honor', 'title': '[ROH Spoilers] Tag Team Championship Match confirmed for Supercard of Honor', 'subreddit': 'SquaredCircle', 'author': 'GooseHudson'}
+2025-07-03 20:42:21,878 - IWC Sentiment Tracker - WARNING - Reddit r/IMPACTWRESTLING returned status 403
+2025-07-03 20:42:22,380 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 137 unique posts from 12 subreddits
+2025-07-03 20:42:28,003 - IWC Sentiment Tracker - INFO - Manual classification received: {'post_id': 'reddit_1lr4e8h', 'sentiment': 'positive', 'type': 'news', 'content': '[ROH Spoilers] Tag Team Championship Match confirmed for Supercard of Honor', 'title': '[ROH Spoilers] Tag Team Championship Match confirmed for Supercard of Honor', 'subreddit': 'SquaredCircle', 'author': 'GooseHudson'}
+2025-07-03 20:42:37,463 - IWC Sentiment Tracker - WARNING - Reddit r/IMPACTWRESTLING returned status 403
+2025-07-03 20:42:37,964 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 137 unique posts from 12 subreddits
+2025-07-03 20:42:47,371 - IWC Sentiment Tracker - INFO - Manual classification received: {'post_id': 'reddit_1lr2ii9', 'sentiment': 'positive', 'type': 'opinion', 'content': 'The Grizzled Young Veterans will be at Mystery Wrestling 17!', 'title': 'The Grizzled Young Veterans will be at Mystery Wrestling 17!', 'subreddit': 'SquaredCircle', 'author': 'haddyent'}
+2025-07-03 20:42:56,535 - IWC Sentiment Tracker - WARNING - Reddit r/IMPACTWRESTLING returned status 403
+2025-07-03 20:42:57,037 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 137 unique posts from 12 subreddits
+2025-07-03 20:43:03,869 - IWC Sentiment Tracker - INFO - Manual classification received: {'post_id': 'reddit_1lr3c7t', 'sentiment': 'neutral', 'type': 'news', 'content': "*🎶 It is my destiny 🎶*\n\nIt’s time to cross the line, as it’s time for TNA IMPACT!, from the **UPMC Events Center** in **Pittsburgh, Pennsylvania!**\n\nWant to catch up with the storylines in TNA? [Here’s the official preview for tonight’s show!](https://tnawrestling.com/2025/06/30/tna-impact-preview-july-3-2025/)\n\n---\n\n**Matches announced for tonight:**\n\nMatch | Stipulation\n---|---\n**Masha Slamovich** (c) vs. Killer Kelly|**Chain match** for the **TNA Knockouts World Championship**\n**Nic Nemeth** vs. **Trey Miguel**|Singles match\n**The Inspiration** (**Jessie McKay** and **Cassie Lee**) vs. **Victoria Crawford** and **Tessa Blanchard**|Tag team match\n**Jake Something** vs. **Mance Warner**|Singles match\n**Matt Cardona** vs. **Eddie Edwards**|Singles match\n\n\n\n**Segments announced for tonight** \n\n• **Tasha Steelz** addresses **Mustafa Ali** and **Cedric Alexander**\n\n•• **The King’s Speech** with **Frankie Kazarian**\n\n---\n\n**Ways to Watch:**\n\n**Online:**\n\n* [**TNA+:**](https://watch.tnawrestling.com/home) Thursdays at 8:00pm EST, $9.99 a month! (Worldwide, except for Canada) \n* [**Sportsnet+:**](https://www.sportsnetplus.ca) Thursdays at 8:00pm EST, $24.99 a month! (Only available in Canada)\n* [**Claro Sports on YouTube:**](https://www.youtube.com/live/0-laLTtwEwM?si=czgUnCLWWh5Odh-E) Thursdays at 6:00pm CST, FREE! (Only available in Latin America) \n* [**TNA’s YouTube channel:**](https://www.youtube.com/live/cxuxjHhjHfo?si=0zwHeMDlwApKQx0c) Thursdays at 8:00pm EST, FREE in the **Summer only**! (Except in Canada) \n\n**Television:**\n\n* **USA:** Thursdays at 8:00pm EST on **AXS TV**\n* **Canada:** Thursdays at 8:00pm EST on **Sportsnet 360** \n* **Europe (select countries):** Fridays at 1:00am BST on **Fight Network** \n* **Latin America:** Fridays at 2:00am CST on **Claro Sports**\n* **India:** Mondays at 6:00pm IST on **Eurosport India**\n\n\n—\n\n**LINKS:**\n\n* **TNA Wrestling Subreddit:** /r/TNA\n* [**TNA Wrestling’s Official YouTube Channel**](https://www.youtube.com/@tnawrestling)\n* [**Check out TNA’s 24/7 channel on Pluto TV**](https://pluto.tv/us/live-tv/59b722526996084038c01e1b)\n* [**TNA Wrestling's Official Shop**](https://tnamerch.com)\n* [**TNA Wrestling's Official Events Page with Card and Ticket Info**](https://tnawrestling.com/EVENTS/)", 'title': 'LIVE TNA Impact! Discussion Thread - July 3, 2025', 'subreddit': 'SquaredCircle', 'author': 'HartfordWhalers123'}
+2025-07-03 20:43:04,927 - IWC Sentiment Tracker - INFO - Manual classification received: {'post_id': 'reddit_1lr3c7t', 'sentiment': 'positive', 'type': 'news', 'content': "*🎶 It is my destiny 🎶*\n\nIt’s time to cross the line, as it’s time for TNA IMPACT!, from the **UPMC Events Center** in **Pittsburgh, Pennsylvania!**\n\nWant to catch up with the storylines in TNA? [Here’s the official preview for tonight’s show!](https://tnawrestling.com/2025/06/30/tna-impact-preview-july-3-2025/)\n\n---\n\n**Matches announced for tonight:**\n\nMatch | Stipulation\n---|---\n**Masha Slamovich** (c) vs. Killer Kelly|**Chain match** for the **TNA Knockouts World Championship**\n**Nic Nemeth** vs. **Trey Miguel**|Singles match\n**The Inspiration** (**Jessie McKay** and **Cassie Lee**) vs. **Victoria Crawford** and **Tessa Blanchard**|Tag team match\n**Jake Something** vs. **Mance Warner**|Singles match\n**Matt Cardona** vs. **Eddie Edwards**|Singles match\n\n\n\n**Segments announced for tonight** \n\n• **Tasha Steelz** addresses **Mustafa Ali** and **Cedric Alexander**\n\n•• **The King’s Speech** with **Frankie Kazarian**\n\n---\n\n**Ways to Watch:**\n\n**Online:**\n\n* [**TNA+:**](https://watch.tnawrestling.com/home) Thursdays at 8:00pm EST, $9.99 a month! (Worldwide, except for Canada) \n* [**Sportsnet+:**](https://www.sportsnetplus.ca) Thursdays at 8:00pm EST, $24.99 a month! (Only available in Canada)\n* [**Claro Sports on YouTube:**](https://www.youtube.com/live/0-laLTtwEwM?si=czgUnCLWWh5Odh-E) Thursdays at 6:00pm CST, FREE! (Only available in Latin America) \n* [**TNA’s YouTube channel:**](https://www.youtube.com/live/cxuxjHhjHfo?si=0zwHeMDlwApKQx0c) Thursdays at 8:00pm EST, FREE in the **Summer only**! (Except in Canada) \n\n**Television:**\n\n* **USA:** Thursdays at 8:00pm EST on **AXS TV**\n* **Canada:** Thursdays at 8:00pm EST on **Sportsnet 360** \n* **Europe (select countries):** Fridays at 1:00am BST on **Fight Network** \n* **Latin America:** Fridays at 2:00am CST on **Claro Sports**\n* **India:** Mondays at 6:00pm IST on **Eurosport India**\n\n\n—\n\n**LINKS:**\n\n* **TNA Wrestling Subreddit:** /r/TNA\n* [**TNA Wrestling’s Official YouTube Channel**](https://www.youtube.com/@tnawrestling)\n* [**Check out TNA’s 24/7 channel on Pluto TV**](https://pluto.tv/us/live-tv/59b722526996084038c01e1b)\n* [**TNA Wrestling's Official Shop**](https://tnamerch.com)\n* [**TNA Wrestling's Official Events Page with Card and Ticket Info**](https://tnawrestling.com/EVENTS/)", 'title': 'LIVE TNA Impact! Discussion Thread - July 3, 2025', 'subreddit': 'SquaredCircle', 'author': 'HartfordWhalers123'}
+2025-07-03 20:43:13,288 - IWC Sentiment Tracker - WARNING - Reddit r/IMPACTWRESTLING returned status 403
+2025-07-03 20:43:13,789 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 137 unique posts from 12 subreddits
+2025-07-03 20:43:17,819 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:43:17,836 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:43:18,726 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-03 20:43:18,734 - IWC Sentiment Tracker - INFO - Sufficient fresh data for CM Punk (52 posts), no scraping needed
+2025-07-03 20:43:23,429 - IWC Sentiment Tracker - WARNING - Reddit r/IMPACTWRESTLING returned status 403
+2025-07-03 20:43:23,931 - IWC Sentiment Tracker - INFO - Reddit scraping successful: 137 unique posts from 12 subreddits
+2025-07-03 20:45:55,250 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 20:45:59,656 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 20:45:59,658 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 20:46:17,219 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 20:46:20,824 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 20:46:20,825 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 20:46:27,287 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 20:46:30,803 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 20:46:30,804 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 20:48:24,029 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:48:24,045 - IWC Sentiment Tracker - INFO - Loading model from cache: ./models/cardiffnlp_twitter-roberta-base-sentiment-latest
+2025-07-03 20:48:30,937 - IWC Sentiment Tracker - INFO - Model loaded successfully on device: cpu
+2025-07-03 20:48:51,378 - IWC Sentiment Tracker - INFO - Shutting down IWC Sentiment Tracker
+2025-07-03 20:48:55,549 - IWC Sentiment Tracker - INFO - Starting IWC Sentiment Tracker v1.0.0
+2025-07-03 20:48:55,550 - IWC Sentiment Tracker - INFO - Database initialized successfully
+2025-07-03 20:49:29,713 - IWC Sentiment Tracker - WARNING - Suspicious request from 127.0.0.1: curl/8.9.1
+2025-07-03 20:50:06,854 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:50:06,858 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:50:07,625 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Cody Rhodes (42 posts), no scraping needed
+2025-07-03 20:50:07,631 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Cody Rhodes (42 posts), no scraping needed
+2025-07-03 20:50:09,853 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:50:09,868 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:50:23,918 - IWC Sentiment Tracker - INFO - Manual classification received: {'post_id': 'reddit_1lp3lie', 'sentiment': 'positive', 'type': 'news', 'content': 'I interview WWE fans, you can find me on TikTok &amp; Instagram: "milesaddy2"', 'title': '', 'subreddit': 'database', 'author': 'Working-Ad7306'}
+2025-07-03 20:50:30,004 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 20:50:30,016 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 21:36:23,362 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 21:36:23,379 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 21:36:26,683 - IWC Sentiment Tracker - INFO - Sufficient fresh data for john cena (34 posts), no scraping needed
+2025-07-03 21:36:26,690 - IWC Sentiment Tracker - INFO - Sufficient fresh data for john cena (34 posts), no scraping needed
+2025-07-03 21:36:40,157 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 21:36:40,172 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 21:36:41,935 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (37 posts), no scraping needed
+2025-07-03 21:36:41,943 - IWC Sentiment Tracker - INFO - Sufficient fresh data for Roman Reigns (37 posts), no scraping needed
+2025-07-03 21:36:45,777 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items
+2025-07-03 21:36:45,789 - IWC Sentiment Tracker - INFO - Retrieved 2 recent news items

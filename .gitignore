@@ -1,0 +1,74 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+frontend/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+/mockFrontend
+/dev_documentation
+backend/venv/
+
+.env*
+env.*
+
+frontend/.env.development
+frontend/.env.production
+
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Claude AI context files
+CLAUDE.md
+claude.md
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+*.env
+
+# OS files
+Thumbs.db
+
+# Environment files
+.env
+.env.development
+.env.test
+.env.production
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package lock files (if using yarn)
+yarn.lock
+
+# Build artifacts
+dist/
+
+backend/models/cardiffnlp_twitter-roberta-base-sentiment-latest/model.safetensors
+backend/models/cardiffnlp_twitter-roberta-base-sentiment-latest/tokenizer_config.json
+backend/models/cardiffnlp_twitter-roberta-base-sentiment-latest/special_tokens_map.json
+backend/models/cardiffnlp_twitter-roberta-base-sentiment-latest/config.json
+backend/models/cardiffnlp_twitter-roberta-base-sentiment-latest/merges.txt
+backend/models/cardiffnlp_twitter-roberta-base-sentiment-latest/vocab.json
