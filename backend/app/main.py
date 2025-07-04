@@ -4,15 +4,126 @@ from fastapi.middleware.trustedhost import TrustedHostMiddleware
 from fastapi.responses import JSONResponse
 from contextlib import asynccontextmanager
 import time
+import asyncio
 from slowapi import Limiter, _rate_limit_exceeded_handler
 from slowapi.util import get_remote_address
 from slowapi.errors import RateLimitExceeded
 
 from app.core.config import settings
-from app.core.database import init_db
+from app.core.database import init_db, get_db
 from app.core.logging import logger
 from app.core.security import security_middleware, limiter, get_cors_origins
 from app.api.endpoints import search, sentiment, wrestlers, timeline, posts, training, phase2_training, labeling
+from app.core.enhanced_scraper import EnhancedWrestlingScraper, ScrapedPost
+from app.core.nlp import analyze_texts_sentiment
+from app.models.tweet import PostModel, QueryModel
+from sqlalchemy.orm import Session
+from sqlalchemy import func
+
+# Popular wrestlers to pre-cache for landing page
+LANDING_CACHE_WRESTLERS = [
+    'CM Punk', 'Roman Reigns', 'Cody Rhodes', 'Seth Rollins',
+    'Drew McIntyre', 'Jon Moxley', 'Kenny Omega', 'MJF',
+    'Hangman Page', 'Orange Cassidy', 'Brock Lesnar', 'John Cena',
+    'The Rock', 'Triple H', 'Undertaker', 'Rhea Ripley',
+    'Bianca Belair', 'Sasha Banks', 'Becky Lynch', 'Charlotte Flair'
+]
+
+async def populate_landing_cache():
+    """Pre-populate cache with popular wrestler data for fast landing page loads."""
+    try:
+        # Get database session
+        db_gen = get_db()
+        db = next(db_gen)
+        
+        try:
+            # Check if we already have cached data
+            existing_posts = db.query(func.count(PostModel.id)).scalar()
+            if existing_posts and existing_posts > 50:
+                logger.info(f"Landing cache already populated with {existing_posts} posts")
+                return
+            
+            logger.info("Populating landing page cache with popular wrestler data...")
+            scraper = EnhancedWrestlingScraper()
+            
+            total_cached = 0
+            for wrestler in LANDING_CACHE_WRESTLERS[:10]:  # Limit to first 10 for startup speed
+                try:
+                    logger.info(f"Caching data for {wrestler}...")
+                    
+                    # Check if we already have recent data for this wrestler
+                    existing_query = db.query(QueryModel).filter(QueryModel.query_text == wrestler).first()
+                    if existing_query and existing_query.post_count > 5:
+                        logger.info(f"Skipping {wrestler} - already has {existing_query.post_count} posts")
+                        continue
+                    
+                    # Scrape posts for this wrestler
+                    posts = await scraper.scrape_subreddit_posts('SquaredCircle', limit=50, search_query=wrestler)
+                    
+                    if not posts:
+                        logger.warning(f"No posts found for {wrestler}")
+                        continue
+                    
+                    # Analyze sentiment for all posts
+                    post_contents = [post.content for post in posts]
+                    sentiment_results = await analyze_texts_sentiment(post_contents)
+                    
+                    # Store in database
+                    cached_posts = []
+                    for post, (sentiment_score, confidence) in zip(posts, sentiment_results):
+                        # Check if post already exists
+                        existing_post = db.query(PostModel).filter(PostModel.id == post.id).first()
+                        if existing_post:
+                            continue
+                            
+                        post_model = PostModel(
+                            id=post.id,
+                            content=post.content,
+                            username=post.username,
+                            datetime=post.datetime,
+                            sentiment_score=sentiment_score,
+                            query=wrestler,
+                            extra_data=f'{{"confidence": {confidence}, "cache_type": "landing"}}'
+                        )
+                        cached_posts.append(post_model)
+                    
+                    if cached_posts:
+                        # Add posts to database
+                        for post_model in cached_posts:
+                            db.add(post_model)
+                        
+                        # Update or create query record
+                        if not existing_query:
+                            query_model = QueryModel(
+                                query_text=wrestler,
+                                post_count=len(cached_posts),
+                                avg_sentiment=sum(p.sentiment_score for p in cached_posts) / len(cached_posts)
+                            )
+                            db.add(query_model)
+                        else:
+                            existing_query.post_count += len(cached_posts)
+                            existing_query.avg_sentiment = sum(p.sentiment_score for p in cached_posts) / len(cached_posts)
+                            existing_query.last_updated = func.now()
+                        
+                        db.commit()
+                        total_cached += len(cached_posts)
+                        logger.info(f"Cached {len(cached_posts)} posts for {wrestler}")
+                    
+                    # Small delay to respect rate limits
+                    await asyncio.sleep(1)
+                    
+                except Exception as e:
+                    logger.error(f"Failed to cache data for {wrestler}: {e}")
+                    continue
+            
+            logger.info(f"Landing cache population complete! Cached {total_cached} posts for {len(LANDING_CACHE_WRESTLERS[:10])} wrestlers")
+            
+        finally:
+            db.close()
+            
+    except Exception as e:
+        logger.error(f"Landing cache population failed: {e}")
+        # Don't fail startup if caching fails
 
 
 @asynccontextmanager
@@ -25,6 +136,10 @@ async def lifespan(app: FastAPI):
     try:
         init_db()
         logger.info("Database initialized successfully")
+        
+        # Pre-populate landing page cache if database is empty
+        await populate_landing_cache()
+        
     except Exception as e:
         logger.error(f"Database initialization failed: {e}")
     

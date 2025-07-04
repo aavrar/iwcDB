@@ -1,0 +1,59 @@
+# Large model files
+wrestling_fine_tuned_model/
+models/
+*.safetensors
+*.pt
+*.bin
+
+# Training data
+*.csv
+wrestling_training_data_*
+
+# Cache and logs
+__pycache__/
+*.pyc
+*.pyo
+*.log
+logs/
+.pytest_cache/
+
+# Development files
+.env
+.env.*
+venv/
+.venv/
+*.db
+*.sqlite
+*.sqlite3
+
+# Git and IDE
+.git/
+.gitignore
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Documentation
+README.md
+SCRAPING_GUIDE.md
+*.md
+
+# Test files
+test_*.py
+tests/
+debug_*.py
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Large datasets
+conversation_memory.db

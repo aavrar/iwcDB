@@ -36,7 +36,7 @@ class Settings(BaseSettings):
     # NLP Configuration - Optimized for storage efficiency
     MODEL_NAME: str = "cardiffnlp/twitter-roberta-base-sentiment-latest"  # Base model for training
     FINE_TUNED_MODEL_PATH: str = "./wrestling_fine_tuned_model"  # Our fine-tuned model
-    USE_FINE_TUNED_MODEL: bool = True  # Use fine-tuned multi-task model
+    USE_FINE_TUNED_MODEL: bool = False  # Use fine-tuned multi-task model (disabled for deployment)
     MODEL_CACHE_DIR: str = "./models"
     BATCH_SIZE: int = 32  # Increased for smaller model
     
