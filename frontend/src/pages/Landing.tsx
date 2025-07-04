@@ -11,11 +11,9 @@ interface LandingProps {
   onSearch: (query: string) => void;
   onCompare?: () => void;
   onWrestlerClick?: (wrestlerName: string) => void;
-  onAdminTraining?: () => void;
-  onLabeling?: () => void;
 }
 
-const Landing: React.FC<LandingProps> = ({ onSearch, onCompare, onWrestlerClick, onAdminTraining, onLabeling }) => {
+const Landing: React.FC<LandingProps> = ({ onSearch, onCompare, onWrestlerClick }) => {
   const [popularWrestlers, setPopularWrestlers] = useState<PopularWrestler[]>([]);
   const [lovedWrestlers, setLovedWrestlers] = useState<PopularWrestler[]>([]);
   const [hatedWrestlers, setHatedWrestlers] = useState<PopularWrestler[]>([]);
@@ -80,10 +78,6 @@ const Landing: React.FC<LandingProps> = ({ onSearch, onCompare, onWrestlerClick,
       <Header 
         onCompare={onCompare} 
         showCompareButton={true}
-        onAdminTraining={onAdminTraining}
-        showAdminButton={true}
-        onLabeling={onLabeling}
-        showLabelingButton={true}
       />
       <SearchSection onSearch={onSearch} />
       

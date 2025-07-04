@@ -8,7 +8,7 @@ from slowapi.util import get_remote_address
 import json
 
 from app.core.database import get_db
-from app.core.scraper import RedditScraper
+from app.core.enhanced_scraper import EnhancedWrestlingScraper
 from app.core.nlp import analyze_texts_sentiment
 from app.core.cache import cache_manager
 from app.core.logging import logger
@@ -19,7 +19,7 @@ limiter = Limiter(key_func=get_remote_address)
 router = APIRouter()
 
 # Scraper instance
-scraper = RedditScraper()
+scraper = EnhancedWrestlingScraper()
 
 
 async def _should_scrape_new_data(query: str, existing_posts: list, db: Session) -> bool:

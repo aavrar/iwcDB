@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import Header from '../components/Header';
 import TimelineChart from '../components/TimelineChart';
 import TopPosts from '../components/TopPosts';
@@ -22,9 +22,10 @@ const WrestlerProfile: React.FC<WrestlerProfileProps> = ({ wrestlerName, onBackT
     if (wrestlerName) {
       loadProfile(selectedPeriod);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [wrestlerName, selectedPeriod]);
 
-  const loadProfile = async (period: string) => {
+  const loadProfile = useCallback(async (period: string) => {
     try {
       setLoading(true);
       setError(null);
@@ -45,7 +46,7 @@ const WrestlerProfile: React.FC<WrestlerProfileProps> = ({ wrestlerName, onBackT
     } finally {
       setLoading(false);
     }
-  };
+  }, [wrestlerName]);
 
   const handlePeriodChange = (period: '30d' | '90d' | '6m' | '1y') => {
     setSelectedPeriod(period);

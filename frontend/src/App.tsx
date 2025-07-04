@@ -3,10 +3,8 @@ import Landing from './pages/Landing';
 import SearchResults from './pages/SearchResults';
 import Compare from './pages/Compare';
 import WrestlerProfile from './pages/WrestlerProfile';
-import AdminTraining from './pages/AdminTraining';
-import LabelingInterface from './pages/LabelingInterface';
 
-type AppState = 'landing' | 'search' | 'compare' | 'profile' | 'admin' | 'labeling';
+type AppState = 'landing' | 'search' | 'compare' | 'profile';
 
 function App() {
   const [currentState, setCurrentState] = useState<AppState>('landing');
@@ -32,13 +30,6 @@ function App() {
     setCurrentState('profile');
   };
 
-  const handleAdminTraining = () => {
-    setCurrentState('admin');
-  };
-
-  const handleLabeling = () => {
-    setCurrentState('labeling');
-  };
 
   return (
     <div className="App">
@@ -47,8 +38,6 @@ function App() {
           onSearch={handleSearch} 
           onCompare={handleCompare}
           onWrestlerClick={handleWrestlerProfile}
-          onAdminTraining={handleAdminTraining}
-          onLabeling={handleLabeling}
         />
       )}
       {currentState === 'search' && (
@@ -67,14 +56,6 @@ function App() {
           onBackToHome={handleBackToHome}
           onSearch={handleSearch}
         />
-      )}
-      {currentState === 'admin' && (
-        <AdminTraining 
-          onBackToHome={handleBackToHome}
-        />
-      )}
-      {currentState === 'labeling' && (
-        <LabelingInterface />
       )}
     </div>
   );

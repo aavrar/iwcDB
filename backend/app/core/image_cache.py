@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 from typing import Optional
 from sqlalchemy.orm import Session
 from app.core.database import get_db
-from app.core.real_image_scraper import image_scraper
+# from app.core.real_image_scraper import image_scraper  # Temporarily disabled
 from app.models.tweet import QueryModel
 from app.core.logging import logger
 
@@ -75,7 +75,8 @@ class ImageCacheManager:
             
             # If not cached or expired, fetch new image
             logger.info(f"Fetching new image for {wrestler_name}")
-            image_url = await image_scraper.get_wrestler_image(wrestler_name)
+            # image_url = await image_scraper.get_wrestler_image(wrestler_name)  # Temporarily disabled
+            image_url = None  # Placeholder - image scraping disabled
             
             if image_url:
                 # Determine source based on URL

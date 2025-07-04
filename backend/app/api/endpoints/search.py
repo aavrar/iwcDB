@@ -6,7 +6,7 @@ from slowapi import Limiter
 from slowapi.util import get_remote_address
 
 from app.core.database import get_db
-from app.core.scraper import RedditScraper
+from app.core.enhanced_scraper import EnhancedWrestlingScraper
 from app.core.nlp import analyze_texts_sentiment
 from app.core.cache import cache_manager
 from app.core.logging import logger
@@ -143,7 +143,7 @@ async def search_tweets(
         
         # Scrape new tweets
         logger.info(f"Scraping tweets for query: {query}")
-        scraper = RedditScraper()
+        scraper = EnhancedWrestlingScraper()
         raw_tweets = await scraper.scrape_reddit_posts(query, max_results)
         
         if not raw_tweets:

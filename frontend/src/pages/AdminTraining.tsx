@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import Header from '../components/Header';
 import ApiService from '../services/api';
 
@@ -24,28 +24,7 @@ const AdminTraining: React.FC<AdminTrainingProps> = ({ onBackToHome }) => {
   const [trainedCount, setTrainedCount] = useState(0);
   const [loading, setLoading] = useState(false);
 
-  const startTraining = async () => {
-    console.log('Starting training...');
-    setIsRunning(true);
-    setTrainedCount(0);
-  };
-
-  // Auto-fetch first post when training starts
-  useEffect(() => {
-    console.log('useEffect triggered - isRunning:', isRunning, 'currentPost:', currentPost);
-    if (isRunning && !currentPost) {
-      console.log('Calling fetchNextPost...');
-      fetchNextPost();
-    }
-  }, [isRunning]);
-
-  const stopTraining = async () => {
-    setIsRunning(false);
-    // TODO: Save model checkpoint
-    alert(`Training stopped. ${trainedCount} posts classified. Model saved.`);
-  };
-
-  const fetchNextPost = async () => {
+  const fetchNextPost = useCallback(async () => {
     console.log('fetchNextPost called');
     setLoading(true);
     try {
@@ -71,6 +50,27 @@ const AdminTraining: React.FC<AdminTrainingProps> = ({ onBackToHome }) => {
     } finally {
       setLoading(false);
     }
+  }, []);
+
+  const startTraining = async () => {
+    console.log('Starting training...');
+    setIsRunning(true);
+    setTrainedCount(0);
+  };
+
+  // Auto-fetch first post when training starts
+  useEffect(() => {
+    console.log('useEffect triggered - isRunning:', isRunning, 'currentPost:', currentPost);
+    if (isRunning && !currentPost) {
+      console.log('Calling fetchNextPost...');
+      fetchNextPost();
+    }
+  }, [isRunning, currentPost]);
+
+  const stopTraining = async () => {
+    setIsRunning(false);
+    // TODO: Save model checkpoint
+    alert(`Training stopped. ${trainedCount} posts classified. Model saved.`);
   };
 
   const generateMockPost = () => {

@@ -23,8 +23,8 @@ const SearchSection: React.FC<SearchSectionProps> = ({ onSearch, isLoading = fal
   const suggestionsRef = useRef<HTMLDivElement>(null);
 
   // Debounced search for suggestions
-  const debouncedSearch = useCallback(
-    debounce(async (searchQuery: string) => {
+  const debouncedSearch = useCallback((searchQuery: string) => {
+    const timeoutId = setTimeout(async () => {
       if (searchQuery.length >= 2) {
         setLoadingSuggestions(true);
         try {
@@ -41,9 +41,10 @@ const SearchSection: React.FC<SearchSectionProps> = ({ onSearch, isLoading = fal
         setSuggestions([]);
         setShowSuggestions(false);
       }
-    }, 300),
-    []
-  );
+    }, 300);
+    
+    return () => clearTimeout(timeoutId);
+  }, []);
 
   useEffect(() => {
     debouncedSearch(query);
@@ -234,13 +235,5 @@ const SearchSection: React.FC<SearchSectionProps> = ({ onSearch, isLoading = fal
   );
 };
 
-// Simple debounce utility
-function debounce<T extends (...args: any[]) => any>(func: T, wait: number): T {
-  let timeout: NodeJS.Timeout;
-  return ((...args: any[]) => {
-    clearTimeout(timeout);
-    timeout = setTimeout(() => func(...args), wait);
-  }) as T;
-}
 
 export default SearchSection;
