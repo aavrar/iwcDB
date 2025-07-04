@@ -258,6 +258,55 @@ async def invalidate_wrestler_image(wrestler_name: str):
         db.close()
 
 
+# Database cleanup endpoints
+@app.get("/admin/cleanup/stats")
+async def get_cleanup_stats():
+    """Get database storage statistics (admin endpoint)."""
+    from app.core.cleanup import cleanup_service
+    from app.core.database import get_db
+    
+    db_gen = get_db()
+    db = next(db_gen)
+    
+    try:
+        stats = await cleanup_service.get_storage_stats(db)
+        return stats
+    finally:
+        db.close()
+
+
+@app.post("/admin/cleanup/run")
+async def run_manual_cleanup():
+    """Run manual database cleanup (admin endpoint)."""
+    from app.core.cleanup import cleanup_service
+    from app.core.database import get_db
+    
+    db_gen = get_db()
+    db = next(db_gen)
+    
+    try:
+        results = await cleanup_service.run_full_cleanup(db)
+        return {"success": True, "results": results}
+    finally:
+        db.close()
+
+
+@app.delete("/admin/cleanup/old-posts")
+async def cleanup_old_posts():
+    """Remove posts older than retention period (admin endpoint)."""
+    from app.core.cleanup import cleanup_service
+    from app.core.database import get_db
+    
+    db_gen = get_db()
+    db = next(db_gen)
+    
+    try:
+        results = await cleanup_service.cleanup_old_posts(db)
+        return {"success": True, "results": results}
+    finally:
+        db.close()
+
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(

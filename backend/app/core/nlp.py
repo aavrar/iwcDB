@@ -1,6 +1,6 @@
 import torch
 import asyncio
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from transformers import AutoTokenizer, AutoModelForSequenceClassification, AutoModel
 from typing import List, Dict, Tuple, Optional
 import numpy as np
 from datetime import datetime
@@ -8,6 +8,8 @@ import re
 from app.core.config import settings
 from app.core.logging import logger
 import os
+import warnings
+warnings.filterwarnings("ignore")
 
 
 class SentimentAnalyzer:
@@ -18,6 +20,8 @@ class SentimentAnalyzer:
         self.model = None
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         self.model_loaded = False
+        self.is_classification_model = False
+        self.sentiment_classifier = None
         
         # Wrestling-specific keywords for context enhancement
         self.wrestling_keywords = {
@@ -45,33 +49,72 @@ class SentimentAnalyzer:
         }
     
     async def load_model(self):
-        """Load the sentiment analysis model."""
+        """Load the optimized sentiment analysis model with quantization."""
         if self.model_loaded:
             return
         
         try:
             model_path = os.path.join(settings.MODEL_CACHE_DIR, settings.MODEL_NAME.replace('/', '_'))
             
-            if os.path.exists(model_path):
-                logger.info(f"Loading model from cache: {model_path}")
-                self.tokenizer = AutoTokenizer.from_pretrained(model_path)
-                self.model = AutoModelForSequenceClassification.from_pretrained(model_path)
-            else:
-                logger.info(f"Downloading model: {settings.MODEL_NAME}")
-                self.tokenizer = AutoTokenizer.from_pretrained(settings.MODEL_NAME)
-                self.model = AutoModelForSequenceClassification.from_pretrained(settings.MODEL_NAME)
+            # Try to load as classification model first
+            try:
+                if os.path.exists(model_path):
+                    logger.info(f"Loading classification model from cache: {model_path}")
+                    self.tokenizer = AutoTokenizer.from_pretrained(model_path)
+                    self.model = AutoModelForSequenceClassification.from_pretrained(model_path)
+                else:
+                    logger.info(f"Downloading classification model: {settings.MODEL_NAME}")
+                    self.tokenizer = AutoTokenizer.from_pretrained(settings.MODEL_NAME)
+                    self.model = AutoModelForSequenceClassification.from_pretrained(settings.MODEL_NAME)
+                    
+                    # Save model to cache
+                    os.makedirs(settings.MODEL_CACHE_DIR, exist_ok=True)
+                    self.tokenizer.save_pretrained(model_path)
+                    self.model.save_pretrained(model_path)
+                    logger.info(f"Classification model cached to: {model_path}")
                 
-                # Save model to cache
-                os.makedirs(settings.MODEL_CACHE_DIR, exist_ok=True)
-                self.tokenizer.save_pretrained(model_path)
-                self.model.save_pretrained(model_path)
-                logger.info(f"Model cached to: {model_path}")
+                self.is_classification_model = True
+                
+            except Exception as e:
+                logger.warning(f"Could not load as classification model: {e}")
+                logger.info("Falling back to DistilBERT for sentiment analysis...")
+                
+                # Fallback to proven working model
+                fallback_model = "distilbert-base-uncased-finetuned-sst-2-english"
+                fallback_path = os.path.join(settings.MODEL_CACHE_DIR, fallback_model.replace('/', '_'))
+                
+                if os.path.exists(fallback_path):
+                    self.tokenizer = AutoTokenizer.from_pretrained(fallback_path)
+                    self.model = AutoModelForSequenceClassification.from_pretrained(fallback_path)
+                else:
+                    self.tokenizer = AutoTokenizer.from_pretrained(fallback_model)
+                    self.model = AutoModelForSequenceClassification.from_pretrained(fallback_model)
+                    
+                    os.makedirs(settings.MODEL_CACHE_DIR, exist_ok=True)
+                    self.tokenizer.save_pretrained(fallback_path)
+                    self.model.save_pretrained(fallback_path)
+                
+                self.is_classification_model = True
+                logger.info(f"Loaded fallback model: {fallback_model}")
             
+            # Move to device
             self.model.to(self.device)
             self.model.eval()
+            
+            # Apply quantization if enabled
+            if settings.USE_QUANTIZATION and settings.QUANTIZATION_METHOD == "pytorch":
+                self.model = torch.quantization.quantize_dynamic(
+                    self.model, 
+                    {torch.nn.Linear}, 
+                    dtype=torch.qint8
+                )
+                logger.info("Applied PyTorch dynamic quantization")
+            
             self.model_loaded = True
             
-            logger.info(f"Model loaded successfully on device: {self.device}")
+            # Log model info
+            model_size = sum(p.numel() for p in self.model.parameters()) / 1_000_000
+            logger.info(f"Model loaded successfully on {self.device}, {model_size:.1f}M parameters")
             
         except Exception as e:
             logger.error(f"Failed to load model: {e}")
